@@ -1,0 +1,89 @@
+---
+import Layout from "../layouts/Layout.astro";
+
+import Encabezado from "../components/Encabezado.astro";
+import DonarPaypal from "../components/DonarPaypal.astro";
+import Cta2 from "../components/Cta2.astro";
+import PerfilAutor from "../components/PerfilAutor.astro";
+---
+
+<Layout
+  metatitle="Acerca del Proyecto Directorio Apps IA"
+  metadescription="Te ayudo a ocupar tu tiempo generando dinero con inteligencia artificial."
+  slug="about/"
+>
+  <Encabezado
+    tituloencabezado="Desbloquea el Poder de la IA"
+    description="Soy entusiasta informatico que he iniciado este proyecto Directorio Apps IA con el objetivo de crear el mas amplio directorio de inteligencia artificial en español, buscamos dar a conocer aplicaciones innovadoras para promocionarlas al publico."
+  />
+  <div class="rounded-xl bg-gray-200 p-3 md:p-6">
+    <div class="grid sm:grid-cols-1 md:grid-cols-4 gap-2 justify-center mb-4">
+      <div class="col-span-2">
+        <h2 class="text-6xl md:text-2xl mb-4">
+          Bienvenido a tu Hub de Innovación
+        </h2>
+
+        <p class="text-lg">
+          Imagina un mundo donde las ideas cobran vida con solo un clic. Un
+          lugar donde la tecnología más avanzada está al alcance de tu mano y te
+          permite crear, innovar y transformar tu negocio. Directorio IA es ese
+          lugar. Somos tu compañero en este emocionante viaje hacia el futuro,
+          donde la inteligencia artificial es tu aliada más poderosa.
+        </p>
+        <p class="text-lg">
+          Nuestro objetivo es crear un mundo donde la inteligencia artificial
+          sea una fuerza positiva para el cambio. Queremos empoderar a las
+          personas para que puedan aprovechar el potencial de esta tecnología y
+          construir un futuro mejor para todos.
+        </p>
+        <h2 class="text-6xl md:text-2xl mb-4">¡Comienza tu Exploración!</h2>
+        <p class="text-lg">
+          Explora nuestro directorio, descubre nuevas posibilidades y únete a la
+          revolución de la inteligencia artificial.
+        </p>
+        <p class="text-lg">
+          Únete a nuestra comunidad de entusiastas de la IA. Comparte tus
+          conocimientos, aprende de otros y colabora en proyectos innovadores.
+        </p>
+      </div>
+      <div class="col-span-2 p-6">
+        <img class="rounded-md" src="/assets/postpunk.jpg" alt="postpunk" />
+      </div>
+    </div>
+
+    <h2 class="text-6xl md:text-2xl mb-4 text-center">
+      Transforma tus Proyectos con IA
+    </h2>
+    <p class="text-lg">
+      ¿Quieres aumentar tu productividad, mejorar la experiencia del cliente o
+      crear nuevos productos y servicios? La inteligencia artificial puede
+      ayudarte a lograr todo esto y más. En Directorio Apps IA, encontrarás las
+      herramientas y los recursos que necesitas.
+    </p>
+    <p class="text-lg">
+      Te ofrecemos acceso a las herramientas de IA más vanguardistas,
+      seleccionadas cuidadosamente para que puedas dar vida a tus proyectos más
+      ambiciosos y genera ingresos.
+    </p>
+    <p class="text-lg">
+      Nuestro blog y recursos te mantendrán actualizado sobre las últimas
+      tendencias en IA y te proporcionarán ideas para aplicar esta tecnología en
+      tu negocio.
+    </p>
+  </div>
+
+  <div
+    class="rounded-xl bg-gray-200 p-3 md:p-6 flex flex-col justify-center my-2"
+  >
+    <Cta2
+      titulobtncta2="Inspiración Constante"
+      titulocta2="¡Accede a Nuestro Blog!"
+      urlcta2="/idea/"
+    />
+  </div>
+
+  <div class="flex flex-col md:flex-row gap-1">
+    <PerfilAutor />
+    <DonarPaypal />
+  </div>
+</Layout>

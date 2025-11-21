@@ -1,0 +1,91 @@
+---
+import Layout from "../layouts/Layout.astro";
+ 
+import Encabezado from "../components/Encabezado.astro";
+
+import DonarPaypal from "../components/DonarPaypal.astro";
+import PerfilAutor from "../components/PerfilAutor.astro";
+import Cta2 from "../components/Cta2.astro";
+---
+
+<Layout
+  metatitle="Siempre Puedes Contactarnos"
+  metadescription="Contáctanos para cualquier propuesta que que desees hacer"
+  slug="contacto/"
+>
+  <Encabezado
+    tituloencabezado="¡Contáctanos y Haz Crecer tu Presencia en el Mundo de la Inteligencia Artificial!"
+    subtitulo="Este sitio web, dedicado a explorar, compartir y potenciar el fascinante mundo de la inteligencia artificial, queremos escuchar tus ideas, proyectos y preguntas. Estamos aquí para ser el puente entre tus aspiraciones y las soluciones innovadoras que ofrece la IA."
+  />
+ 
+  <div class="rounded-xl bg-gray-200 p-3 md:p-6">
+    <div class="grid sm:grid-cols-1 md:grid-cols-4 gap-2 justify-center mb-4">
+      <div class="col-span-2">
+        <h2 class="text-6xl md:text-2xl mb-4">Comparte Tus Ideas y Aportes</h2> 
+
+        <p class="text-lg">
+          ¿Tienes una idea revolucionaria sobre cómo mejorar las aplicaciones de
+          la IA? ¿Quizás un consejo que podría ayudar a otros a sacar el máximo
+          provecho de sus herramientas? Este espacio también es para ti.
+        </p>
+        <p class="text-lg">
+          Nos encanta recibir sugerencias y opiniones que enriquezcan nuestra
+          plataforma y ayuden a nuestra comunidad a seguir creciendo. Creemos
+          firmemente en la colaboración y en el intercambio de conocimientos
+          como motor para el progreso.
+        </p>
+        <h2 class="text-6xl md:text-2xl mb-4">
+          ¿Buscas Ayuda o Asesoramiento? Estamos Aquí para Ti
+        </h2>
+        <p class="text-lg">
+          El mundo de la inteligencia artificial puede parecer complejo al
+          principio, pero no tienes que enfrentarlo solo. Si necesitas
+          orientación, resolver dudas o aprender más sobre cómo aplicar la IA en
+          tu negocio, proyecto o vida diaria, no dudes en ponerte en contacto
+          con nosotros.
+        </p>
+        <p class="text-lg">
+          Estamos comprometidos en ayudarte a superar cualquier obstáculo y en
+          proporcionarte la información que necesitas para dar el siguiente paso
+          en tu viaje con la inteligencia artificial.
+        </p>
+      </div>
+      <div class="col-span-2 p-6">
+        <img class="rounded-md" src="/assets/postpunk.jpg" alt="postpunk" />
+      </div>
+    </div>
+
+    <h2 class="text-6xl md:text-2xl mb-4 text-center">
+      ¿Cómo Ponerte en Contacto con Nosotros?
+    </h2>
+    <p class="text-lg">
+      Es muy sencillo. Solo tienes que enviarnos un correo electrónico al correo
+      que verás abajao con tu idea, proyecto, duda o aporte. Creemos que las
+      mejores soluciones nacen de las mejores conversaciones. Por eso, cada
+      mensaje que recibimos es tratado con la atención y la dedicación que se
+      merece. Ya sea que tengas una idea innovadora, una consulta urgente o
+      simplemente quieras compartir tu experiencia, estamos aquí para
+      escucharte.
+    </p>
+    <p class="text-lg">
+      También puedes escribirnos para colaborar en iniciativas más grandes,
+      sugerir temas de interés o incluso unirte a nuestra misión de llevar la
+      inteligencia artificial a todos los rincones del mundo.
+    </p>
+  </div>
+
+  <div
+    class="rounded-xl bg-gray-200 p-3 md:p-6 flex flex-col justify-center my-2"
+  >
+    <Cta2
+      titulobtncta2="cncompusistema@gmail.com"
+      titulocta2="Tu Voz es Importante para Nosotros"
+      urlcta2="mailto:cncompusistema@gmail.com"
+    />
+  </div>
+
+  <div class="flex flex-col md:flex-row gap-1">
+    <PerfilAutor />
+    <DonarPaypal />
+  </div>
+</Layout>

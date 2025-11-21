@@ -1,0 +1,41 @@
+---
+import { formatDate } from "../utils/fecha.formato";
+interface Props {
+  nombrepost:string;
+  fotopost:string;
+  urlpost:string;
+  fechaPub: string;
+}
+const { nombrepost, fotopost, urlpost, fechaPub} = Astro.props;
+const fechPubFormat = formatDate(fechaPub);
+---
+
+<div
+  class="rounded-lg border border-gray-400 bg-white p-2 shadow-sm"
+>
+  <div class="h-auto w-full mb-3">
+    <img
+      class="h-auto w-full rounded-lg mx-auto"
+      src={`/assets/pub/${fotopost}`}
+      alt={nombrepost}
+    />
+     
+  </div>
+  <div class="text-4xl md:text-sm my-4 text-center font-bold">
+    <span>{fechPubFormat}</span>
+  </div>
+  <h4 class="text-6xl md:text-lg font-semibold text-center leading-tight">
+    {nombrepost}
+  </h4>
+
+  <div class="mt-4 flex items-center justify-center gap-4">
+    <a
+      href={`${urlpost}`}
+       
+      class="text-gray-900 bg-[#F7BE38] hover:bg-[#F7BE38]/90 focus:ring-4 focus:outline-none focus:ring-[#F7BE38]/50 font-bold  px-4 md:px-5 py-8 md:py-2.5 text-6xl md:text-lg text-center inline-flex items-center dark:focus:ring-[#F7BE38]/50 me-2 mb-2"
+    >
+       
+      Leer articulo
+    </a>
+  </div>
+</div>

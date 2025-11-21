@@ -1,0 +1,16 @@
+---
+interface Props {
+  text: string;
+  href: string;
+}
+const { href, text } = Astro.props;
+---
+
+<div class="flex flex-row justify-center items-center mx-auto">
+  <a
+    href={href}
+    class="bg-gradient-to-r w-full fbg-gradient-to-r from-blue-300 via-blue-200 to-blue-100 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-4xl md:text-lg px-[5.25rem] md:px-5 py-3 text-center me-2"
+  >
+    {text}
+  </a>
+</div>

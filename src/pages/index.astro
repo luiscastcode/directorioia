@@ -1,0 +1,20 @@
+---
+import Encabezado from "../components/Encabezado.astro";
+import Layout from "../layouts/Layout.astro";
+import Buscador from "../components/Buscador";
+import SeccionHome from "../components/SeccionHome.astro";
+---
+
+<Layout
+  metatitle="Mejores Aplicaciones de Inteligencia Artificial En La Actualidad"
+  metadescription="Aplicaciones de inteligencia artificial para medicina, aplicaciones de ia en la vida cotidiana, en marketing, en transporte, en agricultura y más..."
+  slug=""
+>
+
+  <Encabezado
+    tituloencabezado="Las Mejores Apps de Inteligencia Artificial"
+    subtitulo="+100 Aplicaciones de inteligencia artificial para medicina, vida cotidiana, marketing, transporte, agricultura y más..."
+  />
+  <Buscador client:visible />
+  <SeccionHome />
+</Layout>

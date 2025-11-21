@@ -1,0 +1,120 @@
+---
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import CookieCo from "../components/CookieCo";
+
+interface Props {
+  metatitle: string;
+  metadescription: string;
+  slug: string;
+}
+
+const { metatitle, metadescription, slug } = Astro.props;
+---
+
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <title>{metatitle}</title>
+    <meta name="description" content={metadescription} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/estilos/app.css" />
+    <link rel="canonical" href={`https://directorioappsia.online/${slug}`} />
+    <meta name="viewport" content="width=device-width" />
+    <meta
+      name="keywords"
+      content="directorio ia, directorio de inteligencia artificial, apps, web apps,directorio de ia, herramientas"
+    />
+    <meta name="robots" content="all" />
+    <!-- Twitter -->
+    <meta property="twitter:title" content={metatitle} />
+    <meta property="twitter:description" content={metadescription} />
+    <meta
+      property="twitter:image"
+      content="https://directorioappsia.online/assets/iaapps.png"
+    />
+    <meta
+      property="twitter:url"
+      content={`https://directorioappsia.online/${slug}`}
+    />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <!-- Facebook -->
+    <meta property="fb:app_id" content="2356430427829750" />
+    <meta property="og:title" content={metatitle} />
+    <meta property="og:description" content={metadescription} />
+    <meta
+      property="og:url"
+      content={`https://directorioappsia.online/${slug}`}
+    />
+    <meta
+      property="og:image"
+      content="https://directorioappsia.online/assets/iaapps.png"
+    />
+    <meta property="og:type" content="website" />
+
+    <!-- AdSense -->
+    <meta name="google-adsense-account" content="ca-pub-1207813510935304" />
+
+    <!-- Google tag (gtag.js) -->
+    <script
+      is:inline
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-RE4H9B4V61"></script>
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-RE4H9B4V61");
+    </script>
+  </head>
+  <body
+    class="w-[960px] md:w-[1400px] flex flex-col justify-center mx-auto px-3 bg-gray-900 bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/hero-pattern-dark.svg')]"
+  >
+    <script is:inline>
+      window.fbAsyncInit = function () {
+        FB.init({
+          appId: "2356430427829750",
+          xfbml: true,
+          version: "v20.0",
+        });
+        FB.AppEvents.logPageView();
+      };
+
+      (function (d, s, id) {
+        var js,
+          fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {
+          return;
+        }
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://connect.facebook.net/en_US/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+      })(document, "script", "facebook-jssdk");
+    </script>
+     
+      <Header />
+      <slot />
+      <Footer />
+      <CookieCo client:visible />
+    
+    <script
+      is:inline
+      src="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.js"
+      async></script>
+  </body>
+</html>

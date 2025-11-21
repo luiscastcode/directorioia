@@ -1,0 +1,37 @@
+---
+interface Props {
+  titulo: string;
+  descrip: string;
+  target: string;
+  url: string;
+  texto: string;
+  rel: string;
+}
+
+const { titulo, descrip, target, url, texto, rel } = Astro.props;
+---
+
+<div
+  class="flex justify-center items-center md:flex-row my-2"
+>
+  <div
+    class="flex flex-col w-full md:max-w-screen-lg text-center justify-center py-4 px-4 md:px-20 border rounded-lg shadow leading-normal bg-gradient-to-r from-slate-300 via-slate-200 to-slate-300"
+  >
+    <h3 class="mb-2 text-6xl md:text-4xl font-bold tracking-tight">
+      <span
+        class="underline underline-offset-3 decoration-8 decoration-indigo-500"
+        >{titulo}</span
+      >
+    </h3>
+    <p class="text-4xl md:text-xl text-justify p-6">{descrip}</p>
+
+    <a
+      class="font-bold bg-[#F7BE38] hover:bg-[#F7BE38]/90 focus:ring-4 focus:outline-none focus:ring-[#F7BE38]/50 text-center rounded-lg text-6xl md:text-lg px-20 md:px-5 py-6 md:py-2.5 inline-flex justify-center items-center dark:focus:ring-[#F7BE38]/50 mb-2"
+      href={`${url}`}
+      target={`${target}`}
+      rel={`${rel}`}
+    >
+      {texto}
+    </a>
+  </div>
+</div>

@@ -1,0 +1,91 @@
+ 
+
+body {  
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 800 !important;
+  font-family: "Poppins", sans-serif;   
+}
+
+h1,
+h2, 
+h3,
+h4 { 
+  color:#001010;
+}
+
+
+.menudrop {
+  filter: drop-shadow(1px 1px 1px #001010);
+}
+
+p {
+  padding-bottom: 1rem !important;
+  line-height: 30px !important;
+   
+}
+ul li,
+ol li {
+  margin: 0 !important;
+  padding: 10px !important;
+} 
+.toc li {
+  padding: 0px !important;
+}
+.toc li:hover {
+  font-weight: 800;
+}
+[aria-current="page"] {
+  color: #081e4a;
+  font-weight: 900;
+}
+p.descrip-texto {
+  line-height: 1.25 !important;
+}
+
+section {
+  padding: 18px;
+}
+.pago {
+  background-color: #991b1b;
+  color: white;
+}
+
+.freemiun {
+  background-color: #b45309;
+  color: white;
+}
+
+.gratis {
+  background-color: #15803d;
+  color: white;
+}
+
+td,
+th {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  th,
+  td {
+    font-size: 2.5rem !important;
+  }
+  p.descrip-texto {
+    font-size: 40px !important;
+  }
+
+  p,
+  ul li,
+  ol li {
+    line-height: 72px !important;
+    font-size: 53px !important;     
+    margin-bottom: 20px !important;
+  }
+}

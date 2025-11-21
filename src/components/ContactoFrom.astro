@@ -1,0 +1,87 @@
+---
+
+---
+
+<section class="bg-white  ">
+  <div class="py-8 px-4 mx-auto max-w-screen-md">
+    <h2
+      class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900"
+    >
+      Envia Tu App
+    </h2>
+     
+    <form
+      id="mi-form"
+      action="https://formspree.io/f/xpzvjpgl"
+      method="POST"
+      class="space-y-8"
+    >
+      <div>
+        <label
+          for="email"
+          class="block mb-2 text-sm font-medium text-gray-900  "
+          >Tu email</label
+        >
+        <input
+          type="email"
+          id="email"
+          class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 "
+          placeholder="name@flowbite.com"
+          required
+        />
+      </div>
+      <div>
+        <label
+          for="subject"
+          class="block mb-2 text-sm font-medium text-gray-900  "
+          >Nombre de la app</label
+        >
+        <input
+          type="text"
+          id="subject"
+          class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500  "
+          placeholder="Dejanos saber el nombre de tu proyecto"
+          required
+        />
+      </div>
+
+      <div>
+        <label
+          for="subject"
+          class="block mb-2 text-sm font-medium text-gray-900  "
+          >Url del proyecto</label
+        >
+        <input
+          type="text"
+          id="subject"
+          class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500  "
+          placeholder="Direccion web"
+          required
+        />
+      </div>
+      
+      <div class="sm:col-span-2">
+        <label
+          for="message"
+          class="block mb-2 text-sm font-medium text-gray-900"
+          >Tu Mensaje</label
+        >
+        <textarea
+          id="message"
+          rows="6"
+          class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 "
+          placeholder="Explicanos brevemente que hace tu app..."></textarea>
+      </div>
+    
+      <button        
+        data-sitekey="6Le0waIpAAAAAMpTFe6UCPexsg1AvQycbqNJdq5p"
+        data-callback="onSubmit"
+        data-action="submit"
+        class="g-recaptcha py-3 px-5 text-sm font-medium text-center text-white bg-blue-500 hover:bg-blue-700 rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300"
+        >Enviar App</button
+      >
+    </form>
+  </div>
+</section>
+
+ 
