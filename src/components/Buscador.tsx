@@ -1,38 +1,44 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useMemo } from "react";
 
 import { motion } from "framer-motion";
+import type { AppsItem } from "../types";
 import Data from "../Data";
 import { Pagination } from "./Pagination";
 
-const Buscador = () => {
-  const [searchTerm, setSearchTerm] = useState("");
+const Buscador: React.FC = () => {
+  const [searchTerm, setSearchTerm] = useState<string>("");
 
-  const handleSearch = (e) => {
+  const handleSearch = (e: React.ChangeEvent<HTMLInputElement>) => {
     setSearchTerm(e.target.value);
   };
-  let results = [];
-  if (!searchTerm) {
-    results = Data;
-  } else {
-    results = Data.filter(
-      (dato) =>
-        dato.nombre.toLowerCase().includes(searchTerm.toLocaleLowerCase()) ||
-        dato.categoria.toLowerCase().includes(searchTerm.toLocaleLowerCase()) ||
-        dato.pago.toLowerCase().includes(searchTerm.toLocaleLowerCase())
-    );
-  }
 
-  const totalIa = results.length;
-  const [iaPorPagina, setIaPorPagina] = useState(16);
-  const [currentPage, setCurrentPage] = useState(1);
+  // Use useMemo to optimize filtering performance
+  const filteredResults = useMemo<AppsItem[]>(() => {
+    if (!searchTerm) {
+      return Data;
+    }
+    const term = searchTerm.toLowerCase();
+    return Data.filter(
+      (dato) =>
+        dato.nombre.toLowerCase().includes(term) ||
+        dato.categoria.toLowerCase().includes(term) ||
+        dato.pago.toLowerCase().includes(term)
+    );
+  }, [searchTerm]);
+
+  const totalIa = filteredResults.length;
+  const [iaPorPagina, setIaPorPagina] = useState<number>(16);
+  const [currentPage, setCurrentPage] = useState<number>(1);
 
   const lastIndex = currentPage * iaPorPagina;
   const firstIndex = lastIndex - iaPorPagina;
+  const currentResults = filteredResults.slice(firstIndex, lastIndex);
 
-  const modalRef = useRef(null);
-  const [isActive, setIsActive] = useState(modalRef, false);
-  const [activeItem, setActiveItem] = useState(null);
-  const onClick = (result) => {
+  const modalRef = useRef<HTMLDivElement>(null);
+  const [isActive, setIsActive] = useState<boolean>(false);
+  const [activeItem, setActiveItem] = useState<AppsItem | null>(null);
+  
+  const onClick = (result: AppsItem) => {
     setActiveItem(result);
     setIsActive(!isActive);
   };
@@ -50,7 +56,7 @@ const Buscador = () => {
         />
       </div>
       <div className="grid grid-cols-2 md:grid-cols-4 justify-center gap-2 mt-10">
-      {results
+      {currentResults
           .map((result) => (
             <div
               key={result.id}
@@ -102,8 +108,7 @@ const Buscador = () => {
                 </a>
               </div>
             </div>
-          ))
-          .slice(firstIndex, lastIndex)}
+          ))}
       </div>
       {/* FIN togle modal */}
       <Pagination
@@ -115,4 +120,5 @@ const Buscador = () => {
     </>
   );
 };
+
 export default Buscador;
