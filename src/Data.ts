@@ -826,5 +826,6 @@ const Data: AppsItem[] = [
   {
     id:134,nombre:'SoulGen',descrip:'Utiliza IA para generar imágenes de personas sin ropa a partir de fotografías.',categoria:'Adulto IA',pago:'Gratis',img:'soulgen',url:'https://pages.faceplay.info/sg/change-page',bgdestacado:'gratis'},
   //{id:,nombre:'',descrip:'.',categoria:'Contenido',pago:'',img:'',url:'',bgdestacado:''},
-  }
 ];
+
+export default Data;
