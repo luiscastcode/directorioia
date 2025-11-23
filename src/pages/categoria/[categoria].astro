@@ -1,0 +1,105 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import Section from "../../components/Section.astro";
+import Card from "../../components/Card.astro";
+import Heading from "../../components/Encabezado.astro";
+import { sortPostsByDate } from "../../utils/fecha.formato";
+import DonarPaypal from "../../components/DonarPaypal.astro";
+import Facebook from "../../components/Facebook.astro";
+import Paginacion from "../../components/Paginacion.astro";
+
+import { slugify } from "../../utils/utils";
+
+export async function getStaticPaths() {
+  return [
+    {
+      params: { categoria: slugify("Monetizar") },
+      props: { nombre: "Monetización" },
+    },
+    {
+      params: { categoria: slugify("Videos con Ia") },
+      props: { nombre: "Videos con Ia" },
+    },
+    {
+      params: { categoria: slugify("Productividad") },
+      props: { nombre: "Productividad" },
+    },
+    {
+      params: { categoria: slugify("Arte Digital") },
+      props: { nombre: "Arte Digital" },
+    },
+    {
+      params: { categoria: slugify("Estilo de vida") },
+      props: { nombre: "Estilo de vida" },
+    },
+  ];
+}
+
+const { categoria } = Astro.params;
+const { nombre } = Astro.props;
+const allPosts = await Astro.glob("../blog/*.md");
+const catPosts = allPosts.filter(
+  (post) => slugify(post.frontmatter.categoria) === categoria
+);
+catPosts.sort(sortPostsByDate);
+---
+
+<Layout
+  metatitle={`${nombre} con Inteligencia Artifical`}
+  metadescription={`Esta sección te ayudará a conocer sobre ${nombre} y como emplearlas para emprender y mejorar la productividad`}
+  slug={`categoria/${categoria}/`}
+>
+  <Heading tituloencabezado={`Ideas Para ${nombre} Usando IA`} />
+  <Section>
+    <p>
+      <span class="font-bold">{nombre}</span> es esencial para el éxito de cualquier
+      emprendimiento, y la inteligencia artificial ofrece una solución efectiva para
+      quienes buscan optimizar sus procesos y mantenerse competitivos. Aprovechar
+      estas herramientas no solo ahorra tiempo, sino que también mejora la calidad
+      del trabajo, lo que puede marcar la diferencia en el éxito de un emprendimiento.
+    </p>
+    <p>
+      Usar aplicaciones de inteligencia artificial en tu vida diaria, mejorar la
+      productividad de tu emprendimiento​ puede ser abrumador, especialmente
+      cuando se deben gestionar múltiples áreas al mismo tiempo. Aquí es donde
+      la IA se convierte en una aliada clave. Herramientas de IA como
+      generadores de contenido, sistemas de CRM automatizados y aplicaciones
+      para la gestión financiera permiten a los emprendedores optimizar su
+      tiempo y reducir errores humanos. Al delegar ciertas tareas en la
+      tecnología, es posible mantener el enfoque en aspectos más creativos y
+      estratégicos del negocio.
+    </p>
+    <div class="grid grid-flow-row md:grid-cols-3 gap-1">
+      {
+        catPosts.map((post: any) => (
+          <div class="flex mb-4">
+            <Card post={post} />
+          </div>
+        ))
+      }
+    </div>
+    <div class="flex flex-col justify-center items-center gap-1">
+    <a
+      rel="sponsored"
+      href="https://namecheap.pxf.io/c/5366243/1187107/5618"
+      target="_top"
+      id="1187107"
+    >
+      <img
+        src="//a.impactradius-go.com/display-ad/5618-1187107"
+        
+        alt="namecheap banner"
+        width="1200"
+        height="600"
+      /></a
+    ><img
+      height="0"
+      width="0"
+      src="https://namecheap.pxf.io/i/5366243/1187107/5618"
+      style="position:absolute;visibility:hidden;"
+     
+    />
+  </div>
+  </Section>
+  
+</Layout>

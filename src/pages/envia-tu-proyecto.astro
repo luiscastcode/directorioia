@@ -1,0 +1,131 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Section from "../components/Section.astro";
+import Encabezado from "../components/Encabezado.astro";
+
+import Cta from "../components/Cta.astro";
+import Cta2 from "../components/Cta2.astro";
+ 
+---
+
+<Layout
+  metatitle="Comunidad de Inteligencia Artificial en Español"
+  metadescription="¿Estás listo para dar el siguiente paso? Envía tu proyecto a nuestra web y forma parte de una comunidad vibrante y enconstante crecimiento"
+  slug="envia-tu-proyecto/"
+>
+  <Encabezado
+    tituloencabezado="Unete a la Comunidad de Inteligencia Artificial en Español"
+    subtitulo="¿Estás listo para dar el siguiente paso? Envía tu proyecto a nuestra web y forma parte de una comunidad vibrante y enconstante crecimiento"
+  />
+  <Section>
+    <div class="container mx-auto text-justify">
+      <div class="flex flex-col md:flex-row justify-between items-center my-4">
+        <div class="w-full md:w-[50%] px-0 md:px-4">
+          <h2 class="text-6xl md:text-2xl mb-4">
+            ¿Tienes un Proyecto Relacionado con Inteligencia Artificial?
+          </h2>
+          <p class="text-lg">
+            ¿Eres un emprendedor con una idea innovadora en el ámbito de la
+            inteligencia artificial? ¿Buscas impulsar tu proyecto y conectarlo
+            con una comunidad vibrante y en constante crecimiento?
+          </p>
+          <p class="text-lg">
+            Únete a nuestra plataforma web especializada en inteligencia
+            artificial, donde tu proyecto tendrá la oportunidad de brillar.
+          </p>
+        </div>
+        <div class="w-[100%] md:w-[50%] p-3">
+          <img
+            class="rounded-md"
+            width="1200"
+            src="/assets/ciudadia.jpg"
+            alt="ciudad ia"
+          />
+        </div>
+      </div>
+      <h2 class="text-6xl md:text-2xl mb-4 text-center">Envía tu aplicación</h2>
+      <h3 class="text-6xl md:text-2xl mb-4">¡Compárte tu idea!</h3>
+      <p class="text-lg">
+        Sabemos que detrás de cada gran idea hay un creador visionario, y
+        queremos brindarte la oportunidad de mostrar tu proyecto al mundo. Si
+        has desarrollado una herramienta, escrito un artículo, o simplemente
+        tienes una idea increíble sobre inteligencia artificial, ¡éste es tu
+        lugar!
+      </p>
+      <p class="text-lg">
+        Publicar tu proyecto en nuestra web no solo te dará visibilidad, sino
+        que también te conectará con una comunidad apasionada por la tecnología
+        y la innovación. Déjanos ser el escaparate que tu trabajo necesita.
+      </p>
+
+      <p class="text-lg">
+        Es muy sencillo. Solo tienes que enviarnos un correo electrónico a la
+        dirección que verás abajo con tu idea, proyecto, duda o aporte. Puedes
+        incluir detalles, enlaces o cualquier recurso que creas relevante.
+      </p>
+
+      <div
+        class="rounded-xl bg-gray-200 p-3 md:p-6 flex flex-col justify-center my-2"
+      >
+        <Cta2
+          titulobtncta2="directorioiaapps@gmail.com"
+          titulocta2="Envia tu app"
+          urlcta2="mailto:directorioiaapps@gmail.com"
+        />
+      </div>
+
+      <h3 class="text-6xl md:text-2xl my-4">
+        Promociona tu proyecto y encuentra las oportunidades que necesitas
+      </h3>
+
+      <ul class="list-outside ml-5 my-2">
+        <li class="text-lg">
+          <strong>Comunidad en español:</strong> Conéctate con una comunidad apasionada
+          por la IA y el emprendimiento, donde podrás compartir ideas, recibir feedback
+          y establecer relaciones valiosas.
+        </li>
+        <li class="text-lg">
+          <strong>Visibilidad:</strong> Tu proyecto tendrá un espacio destacado en
+          nuestra web, permitiéndote llegar a una audiencia amplia y diversa.
+        </li>
+        <li class="text-lg">
+          <strong>Oportunidades:</strong> Accede a una red de contactos, eventos
+          y recursos exclusivos que te ayudarán a hacer crecer tu proyecto.
+        </li>
+      </ul>
+      <h3 class="text-6xl md:text-2xl mb-4">
+        Ventajas de tener tu proyecto en nuestra web:
+      </h3>
+      <ul class="list-outside ml-5 my-4">
+        <li class="text-lg">
+          <strong>Aumento de la visibilidad:</strong> Te exponemos a una audiencia
+          de potenciales clientes, inversores y colaboradores interesados en la IA.
+        </li>
+        <li class="text-lg">
+          <strong>Validación:</strong> Tu proyecto será evaluado por el publico en
+          el campo, lo que te brindará un feedback invaluable para su desarrollo.
+        </li>
+        <li class="text-lg">
+          <strong>Acceso a recursos:</strong> Te ofrecemos una plataforma con herramientas
+          y recursos que te ayudarán a potenciar tu proyecto.
+        </li>
+        <li class="text-lg">
+          <strong>Conexión con la comunidad:</strong> Participa en foros, eventos
+          y workshops online para conocer a otros emprendedores e intercambiar ideas.
+        </li>
+      </ul>
+    </div>
+    <div class="flex justify-center items-center mx-auto my-2">
+      <Cta
+        titulo="Hosting y Dominio con E-Hosting en Bs."
+        descrip="Si aún no sabes cual empresa de hosting elegir, elige el mejor hosting de Venezuela, el de E-Hosting para tu nuevo emprendimiento."
+        texto="Visita E-Hosting"
+        url="https://www.e-hosting.com.ve/clientes/aff.php?aff=7"
+        target="_blank"
+        rel="sponsored"
+      />
+    </div>
+  </Section>
+
+  
+</Layout>

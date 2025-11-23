@@ -1,0 +1,64 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import Section from "../../components/Section.astro";
+import Card from "../../components/Card.astro";
+import Heading from "../../components/Encabezado.astro";
+import { sortPostsByDate } from "../../utils/fecha.formato";
+import DonarPaypal from "../../components/DonarPaypal.astro";
+import Facebook from "../../components/Facebook.astro";
+import Paginacion from "../../components/Paginacion.astro";
+
+export async function getStaticPaths({ paginate }) {
+  const allPosts = await Astro.glob("./*.md");
+  allPosts.sort(sortPostsByDate);
+
+  return paginate(allPosts, {
+    pageSize: 12,
+  });
+}
+
+const { page } = Astro.props;
+---
+
+<Layout
+  metatitle="Blog de Aplicaciona de IA"
+  metadescription="Mira las novedades que traemos para ti, lo que puedes hacer con inteligencia artificial, noticias y más..."
+  slug="blog/"
+>
+  <Heading tituloencabezado="Blog Ideas Noticias Con IA" />
+  <Section>
+    <div class="grid grid-flow-row md:grid-cols-3 gap-1">
+      {
+        page.data.map((post: any) => (
+          <div class="flex mb-4">
+            <Card post={post} />
+          </div>
+        ))
+      }
+    </div>
+    <Paginacion prevUrl={page.url.prev} nextUrl={page.url.next} />
+
+  <div class="flex flex-col justify-center items-center gap-1">
+    <a
+      rel="sponsored"
+      href="https://cotosen.sjv.io/c/5366243/3269434/14148"
+      target="_top"
+      id="3269434"
+    >
+      <img
+        src="//a.impactradius-go.com/display-ad/14148-3269434"
+         
+        alt="banner cotosen"
+        width="300"
+        height="250"
+      /></a
+    ><img
+      height="0"
+      width="0"
+      src="https://imp.pxf.io/i/5366243/3269434/14148"
+      style="position:absolute;visibility:hidden;"
+       
+    />
+  </div>
+    </Section>
+</Layout>

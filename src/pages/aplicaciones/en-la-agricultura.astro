@@ -1,0 +1,300 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import Encabezado from "../../components/Encabezado.astro";
+import Section from "../../components/Section.astro";
+ 
+import Cta from "../../components/Cta.astro";
+import CatAgricultura from "../../components/CatAgricultura";
+import DonarPaypal from "../../components/DonarPaypal.astro";
+import Facebook from "../../components/Facebook.astro";
+import BotonCompartir from "../../components/BotonCompartir.astro";
+
+const {pageTitle = "Aplicaciones de Inteligencia Artificial en la Agricultura | 2025"} = Astro.props
+---
+
+<Layout
+  metatitle="Aplicaciones de Inteligencia Artificial en la Agricultura 2025"
+  metadescription="Drones, sensores y análisis predictivo para optimizar cosechas, descubre como aplicar inteligencia artificial en el campo."
+  slug="aplicaciones/en-la-agricultura/"
+>
+  <Encabezado
+    tituloencabezado="Aplicaciones de Inteligencia Artificial en la Agricultura"
+    subtitulo="Descubre cómo la IA revoluciona la agricultura. Experiencia con drones, sensores y análisis predictivo para optimizar cosechas. ¡Aplica IA en tu campo!"
+  />
+  <CatAgricultura client:visible />
+  <Section>
+    <h2 class="text-7xl md:text-4xl my-4 text-center">
+      Mi Experiencia Cultivando con Tecnología del Futuro
+    </h2>
+
+    <p class="text-lg">
+      Hola, soy Juan. Llevo más de 15 años trabajando la tierra en el valle de
+      Guadalupe, México. Hace tres años, decidí dar un salto hacia el futuro:
+      incorporé inteligencia artificial (IA) en mis cultivos. Al principio, me
+      asustaba pensar que las máquinas pudieran reemplazar el "olfato" del
+      agricultor, pero hoy, después de ver resultados sorprendentes, quiero
+      compartir contigo cómo las aplicaciones de inteligencia artificial para la
+      agricultura no solo mejoraron mis cosechas, sino que también simplificaron
+      mi trabajo.
+    </p>
+    <img
+      class="h-auto max-w-96 rounded-lg my-4 mx-auto"
+      src="/assets/pub/cropx.webp"
+      alt="tractores en movimientos"
+    />
+    <p class="text-lg">
+      Decidí colaborar con Aplicaionesdeia escribiendo este artículo, te guiaré
+      por las aplicaciones más usadas en la agricultura moderna, desde el uso de
+      drones hasta sistemas predictivos que anticipan plagas. Además, responderé
+      a la gran pregunta: ¿por qué usar inteligencia artificial en la
+      agricultura? ¡Empecemos!
+    </p>
+
+    <h2 class="text-7xl md:text-4xl my-4 text-center">
+      ¿Por Qué Usar Inteligencia Artificial en la Agricultura?
+    </h2>
+
+    <p class="text-lg">
+      Cuando escuché por primera vez sobre IA aplicada al campo, pensé: "¿Para
+      qué complicarse?". Pero la realidad es que la agricultura enfrenta retos
+      enormes: cambio climático, escasez de agua y demanda creciente de
+      alimentos. La inteligencia artificial no es solo una moda; es una
+      herramienta para sobrevivir y prosperar.
+    </p>
+
+    <h2 class="text-6xl md:text-2xl my-4">
+      3 Razones Clave para Aplicar IA en el Campo
+    </h2>
+    <ul>
+      <li>
+        🔆 <span class="font-bold">Optimización de recursos:</span> La IA analiza datos
+        en tiempo real para regar, fertilizar o fumigar solo donde se necesita.
+      </li>
+      <li>
+        🔆 <span class="font-bold">Prevención de riesgos:</span> Algoritmos predicen
+        plagas, sequías o heladas con semanas de antelación.
+      </li>
+      <li>
+        🔆 <span class="font-bold">Aumento de productividad:</span> Según un estudio
+        de CAFI, los cultivos con IA logran hasta un 30% más de rendimiento.
+      </li>
+    </ul>
+    <p class="text-lg">
+      En mi caso, el primer año usando IA <span class="font-bold"
+        >reduje un 20% el consumo de agua</span
+      > y
+      <span class="font-bold">detecté una plaga de gorgojos</span> antes de que arrasara
+      con el maíz. ¡Eso me convenció!
+    </p>
+
+    <Cta
+      titulo="Te puede interesar"
+      texto="Cómo Generar Ingresos Creando Recetas Con IA"
+      url="/blog/ia-para-hacer-recetas-de-cocina/"
+      target=""
+      rel=""
+      descrip=""
+    />
+
+    <h2 class="text-7xl md:text-4xl my-4 text-center">
+      3 Aplicaciones de Inteligencia Artificial en la Agricultura 
+    </h2>{" "}
+    <h3 class="text-6xl md:text-2xl my-4">
+      1. Drones Agrícolas: Los Ojos en el Cielo
+    </h3>
+    <p class="text-lg">
+      El uso de drones en la agricultura fue mi primer paso. Estos dispositivos
+      equipados con cámaras multiespectrales sobrevuelan el campo y capturan
+      imágenes que revelan:
+    </p>
+    <ul class="font-bold">
+      <li>🔆 Zonas donde llega poca agua o llueve poco.</li>
+      <li>🔆 Brotes de maleza o enfermedades.</li>
+      <li>🔆 Variaciones en el crecimiento de los cultivos.</li>
+    </ul>
+    <h4 class="text-6xl md:text-2xl my-4">¿Cómo lo Aplico en Mi Campo?</h4>
+    <p class="text-lg">
+      Cada lunes al amanecer, lanzo mi dron <a
+        class="font-bold text-blue-600 after:content-['_↗']"
+        href="https://ag.dji.com/t25"
+        target="_blank">DJI Agras</a
+      >. En 20 minutos, escanea 50 hectáreas. Luego, con <a
+        class="font-bold text-blue-600 after:content-['_↗']"
+        href="https://www.dronedeploy.com/solutions/agriculture"
+        target="_blank"
+      >
+        DroneDeploy</a
+      > que es un software con IA que puede generar mapas detallados de la zona analizando
+      detalles con precisión. Antes, caminaba horas para inspeccionar lo mismo.
+    </p>
+
+    <Cta
+      titulo="Te puede interesar"
+      texto="Cómo Crear Una Agencia de Viajes con IA"
+      url="/blog/como-crear-agencia-viaje-online/"
+      target=""
+      rel=""
+      descrip=""
+    />
+
+    <h3 class="text-6xl md:text-2xl my-4">
+      2. Sensores IoT y Machine Learning: El Pulso del Suelo
+    </h3>{" "}
+    <p class="text-lg">
+      Los sensores enterrados miden humedad, pH y nutrientes. La IA procesa
+      estos datos y me envía alertas como:
+    </p>
+    <ul class="font-bold">
+      <li>🔆 "Riega el sector B2 en las próximas 6 horas".</li>
+      <li>
+        🔆 "Nivel de nitrógeno bajo en parcela 5: aplicar fertilizante orgánico".
+      </li>
+    </ul>
+    <p class="text-lg">
+      <span class="font-bold">Mi experiencia</span> : Instalé sensores de la marca
+      <a
+        class="font-bold text-blue-600 after:content-['_↗']"
+        href="https://cropx.com/"
+        target="_blank"
+      >
+        CropX</a
+      >
+      <h3 class="text-6xl md:text-2xl my-4">
+        3. Robots Autónomos: Desde la Siembra Hasta la Cosecha
+      </h3>{" "}
+      <ul class="font-bold my-3">
+        <li>
+            🔆 <a
+            class="font-bold text-blue-600 after:content-['_↗']"
+            href="https://ecorobotix.com/"
+            target="_blank"
+          >
+            EcoRobotix:</a
+          > Un robot solar que elimina malezas con precisión milimétrica, reduciendo
+          herbicidas en un 90%.
+        </li>
+        <li>
+            🔆 <a
+            class="font-bold text-blue-600 after:content-['_↗']"
+            href="https://www.harvestcroorobotics.com/"
+            target="_blank"
+          >
+            Harvest CROO Robotics:</a
+          > Recolecta fresas sin dañarlas, usando visión artificial.
+        </li>
+      </ul>
+      <p class="text-lg">
+        <span class="font-bold"
+          >¿Vale la pena para pequeños agricultores?
+        </span>
+        <p class="text-lg">
+          Sí, pero con opciones asequibles. Yo alquilo un robot desmalezador por
+          temporada. Ahorra 40 horas de trabajo manual por hectárea.
+        </p>
+        <h3 class="text-6xl md:text-2xl my-4">
+          4. Análisis Predictivo: El Meteorólogo Personal
+        </h3>
+        <p class="text-lg">
+          Plataformas como <a
+            class="font-bold text-blue-600 after:content-['_↗']"
+            href="https://www.climatefieldview.ca/"
+            target="_blank"
+          >
+            Climate FieldView</a
+          > (respaldada por Bayer) combinan datos históricos, satelitales y climáticos
+          para predecir:
+        </p>
+        <ul class="font-bold">
+          <li>🔆 Riesgo de inundaciones.</li>
+          <li>🔆 Brotes de plagas</li>
+          <li>🔆 Rendimiento esperado por zona.</li>
+        </ul>
+        <p>
+          El proyecto <a
+            class="font-bold text-blue-600 after:content-['_↗']"
+            href="https://sensoplag.es/proyecto/"
+            target="_blank"
+          >
+            SENSOPLAG</a
+          > fue creado para buscar una manera eficiente de controlar o predecir mdiante
+          IA el brote de plagas en las plantaciones de naranjas en Valencia .
+        </p>
+        <p class="text-lg">
+          Habia una app que era gratuita llamada FarmShot, su software basado en
+          la nube ofrecian acceso a las imágenes en cualquier momento y en
+          cualquier lugar para comparar tus cultivos con referencias regionales.
+          Esta fue aquirida por SYNGENTA otro grande de la industria agricola en
+          USA, puedes ver la noticia aqui: <a
+            class="font-bold text-blue-600 after:content-['_↗']"
+            href="https://www.syngenta-us.com/newsroom/news_release_detail?id=206238"
+            target="_blank"
+          >
+            FarmShots adquirida por Syngenta.</a
+          >
+        </p>
+        <h2 class="text-6xl md:text-2xl my-4">El Futuro de la IA en la Agricultura: ¿Qué Viene?</h2>
+
+        <ul>
+          <li>
+            <h3>🔆 Granjas 100% autónomas:</h3>
+            <p>Tractores sin conductor y robots podadores.</p>
+          </li>
+          <li>
+            <h3>🔆 Blockchain + IA:</h3>
+            <p>Trazabilidad total desde la semilla hasta el supermercado.</p>
+          </li>
+          <li>
+            <h3>🔆 Asistentes virtuales:</h3>
+            <p>"Hola, Alexa: ¿Qué plagas afectarán esta semana?"</p>
+          </li>
+        </ul>
+        <h2 class="text-6xl md:text-2xl my-4">FAQ: Preguntas Frecuentes</h2>
+        <ul>
+          <li>
+            <h3>🔆 ¿Qué se necesita para empezar con IA en agricultura?</h3>
+            <p>Un smartphone, conexión a internet básica y ganas de aprender</p>
+          </li>
+          <li>
+            <h3>🔆 ¿Es rentable para pequeños agricultores?</h3>
+            <p>
+              Sí. Herramientas como apps de monitoreo cuestan menos de $50 al
+              mes.
+            </p>
+          </li>
+          <li>
+            <h3>🔆 ¿La IA puede predecir el precio de mercado de los cultivos?</h3>
+            <p>
+              ¡Sí! Plataformas como <a
+                class="font-bold text-blue-600 after:content-['_↗']"
+                href="https://www.agflow.com/"
+                target="_blank"
+              >
+                AgFlow</a
+              > analizan tendencias globales para sugerir el mejor momento de venta.
+            </p>
+          </li>
+        </ul>
+
+        <p
+          class="text-6xl md:text-4xl text-center font-bold bg-slate-200 rounded-md p-6 tracking-wide leading-10"
+        >
+          ¿Listo para unirte a la revolución agrotech? ¡Comparte este artículo
+          con otros agricultores y comienza tu viaje hacia el campo inteligente!
+        </p>
+      </p>
+    </p>
+     <!--Bookmark and Share buttons-->
+     <div class="flex items-center justify-end gap-x-1.5">
+        <!-- <Bookmark />-->
+        <div
+          class="mx-3 block h-4 border-e border-neutral-400 dark:border-neutral-500"
+        >
+        </div>
+        <div class="inline-flex">
+          <BotonCompartir pageTitle={pageTitle} />
+        </div>
+      </div>
+     
+  </Section>
+ 
+</Layout>

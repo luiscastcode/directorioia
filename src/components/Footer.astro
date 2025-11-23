@@ -1,0 +1,68 @@
+---
+import DonarPaypal from "../components/DonarPaypal.astro";
+import Facebook from "../components/Facebook.astro";
+ 
+---
+
+<footer class="rounded-lg shadow bg-gray-900 m-4">
+   <div class="flex flex-col md:flex-row justify-between items-center gap-1">
+    <DonarPaypal />
+    <Facebook />
+  </div>
+  <div class="flex flex-col mx-auto p-4 md:py-8">
+    <div class="flex flex-col md:flex-row  md:justify-between">
+      <div>
+        <a
+          href="/"
+          class=" md:mb-4 mb-0 space-x-3 rtl:space-x-reverse"
+        >
+          <img
+            src="/assets/logo-appdeia.jpeg"
+            class="  md:h-16 rounded-md"
+            alt="IA APPS Logo"
+          />
+        </a>
+      </div>
+      <div>
+        <ul
+          class="flex flex-col md:flex-row items-start md:items-center mb-6 text-sm font-medium sm:mb-0 text-gray-400"
+        >
+          <li>
+            <a
+              href="/legal/politica-afiliados/"
+              class="hover:underline me-4 md:me-6">Politica Afiliados</a
+            >
+          </li>
+          <li>
+            <a href="/about/" class="hover:underline me-4 md:me-6"
+              >Sobre El Proyecto</a
+            >
+          </li>
+          <li>
+            <a href="/legal/legal/" class="hover:underline me-4 md:me-6"
+              >Legal</a
+            >
+          </li>
+          <li>
+            <a href="/legal/privacidad/" class="hover:underline me-4 md:me-6"
+              >Privacidad</a
+            >
+          </li>
+          <li>
+            <a href="/legal/cookies/" class="hover:underline"
+              >Politica de Cookies</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+    <hr class="my-6 border-gray-200 mx-auto dark:border-gray-700 lg:my-8" />
+    <span class="block text-6xl md:text-sm text-center text-gray-400"
+      >© 2024 Codificado por:<a
+        href="https://lcastcode.vercel.app/"
+        target="_blank"
+        class="hover:underline">Luis Cast Code™</a
+      >. All Rights Reserved.</span
+    >
+  </div>
+</footer>

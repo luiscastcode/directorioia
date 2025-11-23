@@ -1,0 +1,39 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import Section from "../../components/Section.astro";
+import Encabezado from "../../components/Encabezado.astro";
+import DonarPaypal from "../../components/DonarPaypal.astro";
+import Facebook from "../../components/Facebook.astro";
+---
+
+<Layout
+  metatitle="Acerca de Politica de Afiliados"
+  metadescription="Aplicaciones de IA es una recopilación de herramientas de inteligencia artificial y algunos de los servicios o productos mencionados aquí son afiliados."
+  slug="legal/politica-afiliados/"
+>
+  <Encabezado
+    tituloencabezado="Politica de Afiliados"
+    description="Aplicaciones de IA es una recopilación de herramientas de inteligencia artificial y algunos de los servicios o productos mencionados aquí son afiliados."
+  />
+  <Section>
+    <div class="flex flex-col md:flex-row justify-center items-center">
+      <div class="col-4 p-10">
+        <p class="text-lg">
+          Aplicaciones de IA es una recopilación de herramientas de inteligencia
+          artificial y algunos de los servicios o productos mencionados aquí son
+          afiliados. Esto significa que si realiza una compra a través de un
+          enlace de afiliado en nuestro sitio, podremos recibir una comisión por
+          la venta. Sin embargo, esto no afecta de ninguna manera la validez y
+          la integridad de nuestras reseñas y recomendaciones. Nos esforzamos
+          por proporcionar información precisa y actualizada sobre las
+          herramientas de IA y solo promovemos productos en los que confiamos y
+          creemos que serán útiles para nuestros suscriptores.
+        </p>
+      </div>
+      <div class="col-8 p-4">
+        <img class="rounded-md" src="/assets/postpunk.jpg" alt="Ciudad IA" />
+      </div>
+    </div>
+  </Section>
+ 
+</Layout>
