@@ -7,299 +7,350 @@ import Link from "./Link.astro";
 import { formatearBlogPost } from "../utils/AppConfig";
 import PostAleatorios from "./PostAleatorios.astro";
 
-const allPosts = await Astro.glob("../pages/idea/*.md");
+const allPosts = await Astro.glob("../pages/blog/*.md");
 const postFormateado = formatearBlogPost(allPosts);
 
 const publicacionesAleatorias = postFormateado.slice(0, 6);
 ---
 
 <Section>
-  <h2 class="text-6xl md:text-4xl my-4 text-center">
-    ¿Qué es el Directorio de Inteligencia Artificial?
-  </h2>
-  <p class="text-lg">
-    Directorio Apps IA es un espacio donde puedes encontrar una recopilación de
-    herramientas de inteligencia artificial tanto de pago como gratuitas, no
-    intentamos recopilar todas, sino más bien las mejores, tambien buscamos
-    promocionar apps y aplicaciones de emprendedores.
+  <!-- Intro -->
+  <p class="text-lg mb-4">
+    <strong>Aplicaciones de IA</strong> es tu directorio confiable de herramientas
+    de inteligencia artificial, tanto gratuitas como de pago, cuidadosamente seleccionadas
+    para profesionales, empresas y emprendedores.
   </p>
-  <p class="text-lg">
-    El directorio esta dividido por categorías, se incluyen descripciones cortas
-    de cada herramienta de inteligencia artificial, ademas encontraras
-    tutoriales, consejos y guías facilitando así que encuentres la que mejor se
-    adapte a tus necesidades
+  <p class="text-lg mb-10">
+    Organizamos las mejores aplicaciones por categorías y complementamos cada
+    una con descripciones claras, tutoriales prácticos y guías de uso, para que
+    encuentres rápidamente lo que necesitas.
   </p>
 
+  <!-- ¿Qué hacen las apps de IA? -->
   <h2 class="text-6xl md:text-4xl mb-4 text-center">
     ¿Qué hacen las aplicaciones de inteligencia artificial?
   </h2>
-  <p class="text-lg">
-    Estos programas informáticos utilizan algoritmos de aprendizaje automático y
-    redes neuronales profundas para imitar las funciones cognitivas humanas.
-    Aprenden de los datos introducidos, adaptan la nueva información para luego
-    tomar decisiones basadas en patrones repetitivos y recurrentes.
+  <p class="text-lg mb-4">
+    Estas herramientas utilizan algoritmos avanzados de aprendizaje automático y
+    redes neuronales para imitar capacidades humanas como el razonamiento, la
+    percepción y la toma de decisiones. Aprenden de datos reales, identifican
+    patrones y actúan con precisión, eficiencia y escalabilidad.
+  </p>
+  <p class="text-lg mb-12">
+    Hoy en día, existen cientos de aplicaciones de IA disponibles de forma
+    gratuita o con planes accesibles, listas para integrarse en tu flujo de
+    trabajo.
   </p>
 
-  <p class="text-lg">
-    Hay muchas aplicaciones webs, herramientas de IA disponibles de forma
-    gratuita.
-  </p>
-  <section
-    class="flex flex-col md:flex-row justify-center items-center mx-auto"
-  >
-    <div class="p-2 md:px-16">
-      <h2 class="text-7xl md:text-4xl mb-4 text-center capitalize">
+  <!-- Aplicaciones en la actualidad -->
+  <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start mb-16">
+    <div>
+      <h3 class="text-2xl sm:text-3xl md:text-4xl font-bold mb-6 text-gray-900">
         Aplicaciones de la inteligencia artificial en la actualidad
-      </h2>
-
-      <ul>
-        <li>
-          <a
-            href="/idea/monetizar-con-chatbots-ia/"
-            class="font-bold text-indigo-950 hover:bg-indigo-950 hover:text-slate-200 bg-slate-200 p-1 rounded-sm"
-            >🔗 Chatbots:</a
-          > Permiten la comunicación directa con los clientes de forma automatizada,
-          respondiendo preguntas frecuentes y brindando soporte en tiempo real.
+      </h3>
+      <ul class="space-y-4">
+        <li class="flex items-start">
+          <span class="font-semibold text-indigo-600 mr-2">🔗</span>
+          <span>
+            <a
+              href="/blog/monetizar-con-chatbots-ia/"
+              class="font-medium text-indigo-600 hover:underline">Chatbots:</a
+            >
+            Automatizan la atención al cliente, responden preguntas frecuentes y
+            mejoran la experiencia del usuario 24/7.
+          </span>
         </li>
-        <li>
-          <a
-            href="/idea/klingai-videos-divertidos/"
-            class="font-bold text-indigo-950 bg-slate-200 hover:bg-indigo-950 hover:text-slate-200 p-1 rounded-sm"
-            >🔗 Análisis de sentimientos:</a
-          > Extrae información sobre las emociones y opiniones expresadas en el texto.
+        <li class="flex items-start">
+          <span class="font-semibold text-indigo-600 mr-2">🔗</span>
+          <span>
+            <a
+              href="/blog/klingai-videos-divertidos/"
+              class="font-medium text-indigo-600 hover:underline"
+              >Análisis de sentimientos:</a
+            >
+            Evalúan opiniones en redes sociales, reseñas o encuestas para entender
+            percepciones de marca o productos.
+          </span>
         </li>
-        <li>
-          <a
-            href="/herramientas/productividad/"
-            class="font-bold text-indigo-950 bg-slate-200 hover:bg-indigo-950 hover:text-slate-200 p-1 rounded-sm"
-            >🔗 Traducción automática:</a
-          > Traducen los textos de un idioma a otro de forma semántica y en tiempo
-          real.
+        <li class="flex items-start">
+          <span class="font-semibold text-indigo-600 mr-2">🔗</span>
+          <span>
+            <a
+              href="/aplicaciones/en-los-negocios/"
+              class="font-medium text-indigo-600 hover:underline"
+              >Traducción automática:</a
+            >
+            Traducen contenido entre idiomas con contexto preciso y en tiempo real.
+          </span>
         </li>
-        <li>
-          <a
-            href="/herramientas/contenido/"
-            class="font-bold text-indigo-950 bg-slate-200 hover:bg-indigo-950 hover:text-slate-200 p-1 rounded-sm"
-            >🔗 Redacción de contenido:</a
-          > Pueden redactar artículos, correos electrónicos y publicaciones en redes
-          sociales con solo introducir algunas palabras claves.
+        <li class="flex items-start">
+          <span class="font-semibold text-indigo-600 mr-2">🔗</span>
+          <span>
+            <a
+              href="/aplicaciones/para-redactar-contenido/"
+              class="font-medium text-indigo-600 hover:underline"
+              >Redacción de contenido:</a
+            >
+            Generan artículos, correos y publicaciones profesionales a partir de
+            palabras clave.
+          </span>
         </li>
-        <li>
-          <a
-            href="/herramientas/imagen/"
-            class="font-bold text-indigo-950 bg-slate-200 hover:bg-indigo-950 hover:text-slate-200 p-1 rounded-sm"
-            >🔗 Reconocimiento de imágenes:</a
-          > Pueden describir los objetos que estan dentro de las imágenes y videos
-          con una precisión impresionante.
+        <li class="flex items-start">
+          <span class="font-semibold text-indigo-600 mr-2">🔗</span>
+          <span>
+            <a
+              href="/aplicaciones/para-crear-imagenes/"
+              class="font-medium text-indigo-600 hover:underline"
+              >Reconocimiento de imágenes:</a
+            >
+            Identifican objetos, personas y escenas con alta precisión en fotos y
+            videos.
+          </span>
         </li>
-        <li>
-          <a
-            href="/idea/reflection-70b-ia/"
-            class="font-bold text-indigo-950 bg-slate-200 hover:bg-indigo-950 hover:text-slate-200 p-1 rounded-sm"
-            >🔗 Detección de anomalías:</a
-          > Detecta patrones inusuales, puede ser usado como ayuda en la medicina.
+        <li class="flex items-start">
+          <span class="font-semibold text-indigo-600 mr-2">🔗</span>
+          <span>
+            <a
+              href="/blog/reflection-70b-ia/"
+              class="font-medium text-indigo-600 hover:underline"
+              >Detección de anomalías:</a
+            >
+            Útil en sectores como la salud o la manufactura para identificar datos
+            o comportamientos fuera de lo normal.
+          </span>
         </li>
-
-        <li>
-          <a
-            href="/idea/estrategia-precios-ia/"
-            class="font-bold text-indigo-950 bg-slate-200 hover:bg-indigo-950 hover:text-slate-200 p-1 rounded-sm"
-            >🔗 Predicción:</a
-          > Pronostica eventos futuros o resultados basándose en datos históricos,
-          puede ser usado por ejemplo para predecir fluctaciones de precios.
+        <li class="flex items-start">
+          <span class="font-semibold text-indigo-600 mr-2">🔗</span>
+          <span>
+            <a
+              href="/blog/estrategia-precios-ia/"
+              class="font-medium text-indigo-600 hover:underline">Predicción:</a
+            >
+            Anticipan tendencias en precios, demanda o comportamiento del consumidor.
+          </span>
         </li>
-        <li>
-          <a
-            href="/idea/dropshipping-con-ia/"
-            class="font-bold text-indigo-950 bg-slate-200 hover:bg-indigo-950 hover:text-slate-200 p-1 rounded-sm"
-            >🔗 Recomendación:</a
-          > Sugiere productos, servicios o contenidos que podrían ser de interés
-          para los usuarios muy usado en el dropshipping.
+        <li class="flex items-start">
+          <span class="font-semibold text-indigo-600 mr-2">🔗</span>
+          <span>
+            <a
+              href="/blog/dropshipping-con-ia/"
+              class="font-medium text-indigo-600 hover:underline"
+              >Recomendación:</a
+            >
+            Sistemas personalizados que sugieren productos o servicios basados en
+            preferencias del usuario.
+          </span>
         </li>
-        <li>
-          <a
-            href="/herramientas/audiovideo/"
-            class="font-bold text-indigo-950 bg-slate-200 hover:bg-indigo-950 hover:text-slate-200 p-1 rounded-sm"
-            >🔗 Reconocimiento de voz:</a
-          > Es capaz de reconocer la voz de cualquier persona guardarla, clasificarla
-          incluso imitarla.
+        <li class="flex items-start">
+          <span class="font-semibold text-indigo-600 mr-2">🔗</span>
+          <span>
+            <a
+              href="/aplicaciones/para-audio-video/"
+              class="font-medium text-indigo-600 hover:underline"
+              >Reconocimiento de voz:</a
+            >
+            Transcriben, clasifican e incluso clonan voces con fines comerciales
+            o creativos.
+          </span>
         </li>
       </ul>
     </div>
-    <div>
+    <div class="flex justify-center">
       <img
-        class="h-auto w-full rounded-lg my-4 mx-auto"
-        src="/assets/da.jpg"
-        alt="robot ai"
-      />
-    </div>
-  </section>
-  <Cta
-    titulo="Te puede interesar"
-    texto="¡Herramientas de IA para crear contenidos!"
-    url="/herramientas/contenido/"
-    target=""
-    rel=""
-    descrip=""
-  />
-
- 
-
-  <h2 class="text-7xl md:text-4xl mb-4 text-center">
-    Aplicaciones de Inteligencia Artificial En La Industria
-  </h2>
-  <section
-    class="flex flex-col md:flex-row justify-center items-center mx-auto"
-  >
-    <div>
-      <img
-        class="w-full rounded-lg my-4 mx-auto"
         src="/assets/zz.png"
-        alt="robot ai"
+        alt="Ilustración de inteligencia artificial"
+        class="rounded-xl shadow-md max-w-full h-auto w-full"
       />
     </div>
-    <div class="w-full md:w-[80%] p-1 md:px-8">
-      <p class="text-lg">
-        Estas inteligencias artificiales son ampliamente utilizadas en
-        diferentes industrias y aplicaciones, las grandes corporaciones hacen
-        uso masivo de estas tecnologías.
-      </p>
+  </div>
 
-      <p class="text-lg">
-        <span class="font-bold"
-          >1. Inteligencia Artificial GPT-4 de OpenAI:</span
+  
+  <!-- IA en la industria – con íconos -->
+  <div class="mb-16">
+    <h2 class="text-6xl md:text-4xl mb-4 text-center">
+      Aplicaciones de Inteligencia Artificial en la Industria
+    </h2>
+    <p class="text-lg text-center max-w-3xl mx-auto mb-10">
+      Las grandes corporaciones y pymes ya aprovechan la IA para optimizar
+      procesos, reducir costos y mejorar la calidad. Aquí te mostramos cómo se
+      aplica en entornos industriales reales.
+    </p>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <!-- Card 1 -->
+      <div
+        class="bg-white p-6 rounded-xl shadow-sm border border-gray-200 hover:shadow-md transition"
+      >
+        <div
+          class="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center mb-4"
         >
-        GPT-4 es un modelo de lenguaje desarrollado por OpenAI que utiliza aprendizaje
-        profundo para generar texto de manera coherente y relevante. Puede realizar
-        tareas como redacción de contenido, traducción, resumen de textos, y responder
-        preguntas.
-      </p>
-      <p class="text-lg">
-        <span class="font-bold">2. Inteligencia Artificial BERT de Google:</span
-        > BERT (Bidirectional Encoder Representations from Transformers) es un modelo
-        de lenguaje que entiende el contexto de las palabras en una oración mediante
-        el análisis bidireccional. Es excelente para tareas de procesamiento del
-        lenguaje natural.
-      </p>
-      <p class="text-lg">
-        <span class="font-bold"
-          >3. Inteligencia Artificial Watson de IBM:
-        </span>
-        Watson es una plataforma de inteligencia artificial que ofrece servicios
-        de análisis de datos, procesamiento del lenguaje natural, y aprendizaje automático.
-        Es conocida por su capacidad para entender y analizar grandes volúmenes de
-        datos no estructurados.
-      </p>
-      <p class="text-lg">
-        <span class="font-bold"
-          >4. Inteligencia Artificial Alexa de Amazon:
-        </span>
-        Alexa es un asistente virtual desarrollado por Amazon, que utiliza procesamiento
-        del lenguaje natural para interactuar con los usuarios mediante comandos
-        de voz. Puede realizar una variedad de tareas desde controlar dispositivos
-        inteligentes hasta reproducir música.
-      </p>
-      <p class="text-lg">
-        <span class="font-bold"
-          >5. Inteligencia Artificial Siri de Apple:
-        </span>
-        Siri es el asistente virtual de Apple que utiliza reconocimiento de voz y
-        procesamiento del lenguaje natural para responder preguntas, hacer recomendaciones
-        y realizar acciones mediante comandos de voz.
-      </p>
-      <p class="text-lg">
-        <span class="font-bold"
-          >6. Inteligencia Artificial TensorFlow de Google:
-        </span>
-        TensorFlow es una biblioteca de código abierto para el aprendizaje automático
-        y la inteligencia artificial. Permite a los desarrolladores construir y entrenar
-        modelos de aprendizaje profundo para una variedad de aplicaciones.
-      </p>
+          <span class="text-blue-600 text-xl">⚙️</span>
+        </div>
+        <h3 class="text-5xl md:text-3xl mb-3">Mantenimiento Predictivo</h3>
+        <p class="text-gray-600 text-sm">
+          Anticipa fallos en maquinaria usando sensores + IA y evita paradas no
+          planificadas.
+        </p>
+      </div>
+      <!-- Card 2 -->
+      <div
+        class="bg-white p-6 rounded-xl shadow-sm border border-gray-200 hover:shadow-md transition"
+      >
+        <div
+          class="w-12 h-12 rounded-full bg-green-100 flex items-center justify-center mb-4"
+        >
+          <span class="text-green-600 text-xl">👁️</span>
+        </div>
+        <h3 class="text-5xl md:text-3xl mb-3">
+          Control de Calidad Automatizado
+        </h3>
+        <p class="text-gray-600 text-sm">
+          Cámaras con visión IA detectan defectos microscópicos en tiempo real.
+        </p>
+      </div>
+      <!-- Card 3 -->
+      <div
+        class="bg-white p-6 rounded-xl shadow-sm border border-gray-200 hover:shadow-md transition"
+      >
+        <div
+          class="w-12 h-12 rounded-full bg-purple-100 flex items-center justify-center mb-4"
+        >
+          <span class="text-purple-600 text-xl">🌐</span>
+        </div>
+        <h3 class="text-5xl md:text-3xl mb-3">Gemelos Digitales</h3>
+        <p class="text-gray-600 text-sm">
+          Simula fábricas completas en entornos virtuales para probar sin
+          riesgos.
+        </p>
+      </div>
+      <!-- Card 4 -->
+      <div
+        class="bg-white p-6 rounded-xl shadow-sm border border-gray-200 hover:shadow-md transition"
+      >
+        <div
+          class="w-12 h-12 rounded-full bg-amber-100 flex items-center justify-center mb-4"
+        >
+          <span class="text-amber-600 text-xl">📅</span>
+        </div>
+        <h3 class="text-5xl md:text-3xl mb-3">Secuenciación Inteligente</h3>
+        <p class="text-gray-600 text-sm">
+          Optimiza órdenes de producción al segundo con IA.
+        </p>
+      </div>
+      <!-- Card 5 -->
+      <div
+        class="bg-white p-6 rounded-xl shadow-sm border border-gray-200 hover:shadow-md transition"
+      >
+        <div
+          class="w-12 h-12 rounded-full bg-cyan-100 flex items-center justify-center mb-4"
+        >
+          <span class="text-cyan-600 text-xl">📊</span>
+        </div>
+        <h3 class="text-5xl md:text-3xl mb-3">Previsión de Demanda</h3>
+        <p class="text-gray-600 text-sm">
+          Predice con precisión qué producir según tendencias, clima y
+          comportamiento.
+        </p>
+      </div>
+      <!-- Card 6 -->
+      <div
+        class="bg-white p-6 rounded-xl shadow-sm border border-gray-200 hover:shadow-md transition"
+      >
+        <div
+          class="w-12 h-12 rounded-full bg-pink-100 flex items-center justify-center mb-4"
+        >
+          <span class="text-pink-600 text-xl">🤖</span>
+        </div>
+        <h3 class="text-5xl md:text-3xl mb-3">Cobots Inteligentes</h3>
+        <p class="text-gray-600 text-sm">
+          Robots que trabajan contigo, se adaptan a nuevas tareas y aprenden en
+          minutos.
+        </p>
+      </div>
     </div>
-  </section>
+  </div>
 
+  <!-- Cómo aprovechar -->
   <h2 class="text-6xl md:text-4xl mb-4 text-center">
-    Cómo Aprovechar Mi Directorio de Inteligencia Artificial
+    Cómo aprovechar este directorio de inteligencia artificial
   </h2>
-
-  <p class="text-lg">
-    <span class="font-bold">Lo puedes aprovechar para ganar dinero:</span>
-    La clave para ganar dinero es identificar oportunidades donde las herramientas
-    de inteligencia artificial puedan ofrecer soluciones donde nadie más lo ha hecho.
-    Puedes por ejemplo crear Chatbots automatizados para la atención al publico y
-    venderlos a pequeñas agencias de viaje. <a
-      href="/idea/monetizar-con-chatbots-ia/"
-      class="font-bold text-blue-700">Aprende como hacerlo</a
+  <p class="text-lg mb-4">
+    <strong>¿Buscas ganar dinero con IA?</strong> La clave está en identificar nichos
+    sin atender y ofrecer soluciones automatizadas. Por ejemplo: crea chatbots personalizados
+    para pequeñas agencias de viaje y ofrécelos como servicio.
+    <a
+      href="/blog/monetizar-con-chatbots-ia/"
+      class="text-indigo-600 font-medium hover:underline ml-1"
+      >Aprende cómo hacerlo.</a
     >
   </p>
-  <p class="text-lg">
-    Mi directorio está categorizado por áreas de aplicación como marketing
-    digital, creación de contenido, productividad y más. Esto te permitirá
-    encontrar rápidamente las herramientas adecuadas para tus proyectos.
-  </p>
-  <Cta
-    titulo="Te puede interesar"
-    texto="Visita Nuestro Blog"
-    url="/idea/"
-    target=""
-    rel=""
-    descrip="En nuestro blog hay consejos y guías de como darle buen uso a las herramientas de inteligencia artificial que aquí promocionamos."
-  />
-  <h3 class="text-6xl md:text-4xl mb-4 text-center">
-    Caso real de uso de la IA en el SEO:
-  </h3>
-  <p class="text-lg">
-    <span class="font-bold">Romuald Fons:</span>
-    maestro del SEO en España y Latinoamerica, experto en crear webs nichos para
-    monetizar en Google Adsense, antes contrataba a cientos de redactores y ahora
-    usa ChatGPT ahorrando tiempo y costos.
+  <p class="text-lg mb-10">
+    Nuestro directorio está organizado por áreas como marketing, productividad,
+    contenido, desarrollo y más, para que encuentres las herramientas ideales
+    para tu negocio o proyecto.
   </p>
 
-  <div class="flex justify-center items-center mx-auto mb-4">
+  
+  <Cta
+    titulo="Consejos y casos reales de uso"
+    descrip="En nuestro blog hay consejos y guías de como darle buen uso a las aplicaciones de inteligencia artificial que aquí promocionamos."
+    url="/blog/"
+    target=""
+    texto="Visita nuestro blog"
+    rel=""
+  />
+
+  <!-- Caso real SEO -->
+  <div class="bg-gray-50 p-6 rounded-xl mb-12 border border-gray-200">
+    <h3 class="text-5xl md:text-3xl mb-3">Caso real: IA en el SEO</h3>
+    <p class="text-lg">
+      <strong>Romuald Fons</strong>, referente del SEO en España y
+      Latinoamérica, solía contratar decenas de redactores para sus webs nicho.
+      Hoy usa ChatGPT para generar contenido optimizado, reduciendo costos y
+      acelerando resultados en Google AdSense.
+    </p>
+  </div>
+
+  <!-- YouTube -->
+  <div class="flex justify-center mb-12">
     <iframe
-      width="560"
+      width="100%"
+      max-width="560"
       height="315"
-      loading="lazy"
-      src="https://www.youtube.com/embed/G_VgYG5QyeM?si=iSG1lufvoNWsIZvk"
+      src="https://www.youtube.com/embed/G_VgYG5QyeM"
       title="YouTube video player"
       frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      referrerpolicy="strict-origin-when-cross-origin"
-      allowfullscreen></iframe>
+      allowfullscreen
+      class="rounded-xl shadow max-w-2xl w-full"></iframe>
   </div>
-  <h3 class="text-6xl md:text-4xl mb-4 text-center">¿Necesitas más ideas?</h3>
-  <p class="text-lg">
-    <span class="font-bold">Bien, ahora preguntate esto:</span>
-    ¿Que saldria de unir <span class="font-bold">ChatGPT,</span>
-    <span class="font-bold">Wonderplan,</span>
-    <span class="font-bold">Dola AI</span>, <span class="font-bold"
-      >Mail Blaze</span
-    >?
-  </p>
-  <p class="text-lg">
-    Tal vez saldria una agencia de viajes que puedes gestionar desde tu hogar y
-    ganar dinero adicional ofreciendo paquetes turisticos, interesante,
-    ¿verdad?.
-  </p>
 
+  <!-- Idea final -->
+  <div class="text-center mb-8">
+    <h3 class="text-5xl md:text-3xl mb-4">¿Necesitas más ideas?</h3>
+    <p class="text-lg max-w-2xl mx-auto">
+      Imagina combinar <strong>ChatGPT</strong>, <strong>Wonderplan</strong>, <strong
+        >Dola AI</strong
+      > y <strong>Mail Blaze</strong>. Podrías lanzar una agencia de viajes 100%
+      gestionada desde casa, con itinerarios personalizados, atención automática
+      y campañas de email marketing.
+    </p>
+  </div>
   <Cta
-    titulo="Idea de negocio con IA"
-    texto="Crear tu agencia de viajes con inteligencia artificial"
-    url="/idea/agencia-viaje-con-ia/"
+    titulo="¿Listo para crear tu propio negocio con IA?"
+    descrip="Combina herramientas de IA para lanzar una agencia de viajes 100% automatizada. Sin inventario, sin oficina, solo resultados."
+    url="/blog/como-crear-agencia-viaje-online/"
     target=""
+    texto="Crea tu agencia de viajes con IA"
     rel=""
-    descrip=""
   />
 
-  <p class="text-lg">
-    Con <span class="font-bold">Directorio Apps IA</span>, tienes acceso a
-    herramientas y aplicaciones de inteligencia artificial valiosos que te
-    ayudarán a identificar y aprovechar estas oportunidades. No importa si eres
-    un emprendedor que paneas empieza, un creador de contenido novato o un
-    profesional del marketing, la IA puede darte ese empuje y cambiar la manera
-    en que trabajas para alcanzar tus objetivos.
+  <p class="text-lg mb-4">
+    Con <strong>Aplicaciones de IA</strong>, tienes acceso a herramientas
+    prácticas y actualizadas que te ayudarán a transformar tu trabajo,
+    emprendimiento o negocio. Ya seas creador de contenido, marketer,
+    desarrollador o empresario, la IA está lista para potenciarte.
   </p>
-
   <div
     class="flex flex-col justify-center items-center mx-auto p-8 bg-white rounded-xl mb-4"
   >
@@ -312,7 +363,7 @@ const publicacionesAleatorias = postFormateado.slice(0, 6);
       }
     </div>
 
-    <Link text="Más ideas interesantes" href="/idea/" />
+    <Link text="Lee cosas interesantes" href="/blog/" />
   </div>
 </Section>
 

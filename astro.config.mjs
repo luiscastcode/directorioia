@@ -6,11 +6,7 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://directorioappsia.online/',
-  integrations: [tailwind(), react(),sitemap()],
-  redirects: {
-    '/idea/agencia-viaje-com-ia/': '/idea/agencia-viaje-con-ia/',
-    
-  }
-   
+  site: 'https://aplicacionesdeia.site/',
+  integrations: [tailwind(), react(), sitemap()],  
+
 });

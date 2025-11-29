@@ -60,7 +60,7 @@ const Buscador: React.FC = () => {
           .map((result) => (
             <div
               key={result.id}
-              className="mb-4 rounded overflow-hidden shadow-inner bg-blue-200"
+              className="mb-4 rounded overflow-hidden shadow-inner bg-slate-200"
             >
               <motion.div
                 whileHover={{ scale: 1.2 }}
@@ -102,7 +102,7 @@ const Buscador: React.FC = () => {
                   href={`${result.url}`}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex justify-center mx-auto text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 font-medium rounded-lg text-5xl md:text-xl px-8 py-10 md:py-2.5 text-center me-2 mb-2 w-full"
+                  className="flex justify-center mx-auto bg-gradient-to-r from-amber-500 via-yellow-300 to-amber-400 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300   font-medium rounded-lg text-5xl md:text-xl px-8 py-10 md:py-2.5 text-center me-2 mb-2 w-full"
                 >
                   Utilizar La IA
                 </a>

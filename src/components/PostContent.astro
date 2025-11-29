@@ -2,41 +2,34 @@
 import Section from "./Section.astro";
 ---
 
-<Section>
+ 
   <div
-    class="content mt-8 leading-8 px-1 md:px-[400px]"
+    class="posts mt-8 leading-8 px-1"
   >
     <slot />
   </div>
-</Section>
+ 
 
 <style is:global>
-  .content h2,
-  h3,
-  h4 {
-    margin-top: 20px;
-  }
-  .content h2 {
-    font-size: 24px;
-  }
-  .content table {
+ 
+  .posts table {
     border-collapse: collapse;
     background-color: bisque;
     border-radius: 10px;
-    border: 2px solid gray;
-    padding: 60px;
+    border: 1px solid gray;
+    padding: 40px;
     margin: 4rem 0px 4rem 0px;
   }
-  .content th {
+  .posts th {
     background-color: rgb(32, 218, 79);
     width: 5%;
   }
-  .content td {
+  .posts td {
     text-align: justify;
     padding: 5px;
     text-align: center;
   }
-  .content tr {
+  .posts tr {
     padding: 0.8rem 1.5rem;
     border-bottom: solid 1px gray;
     text-align: center;
@@ -46,23 +39,13 @@ import Section from "./Section.astro";
     margin-left: 2rem;
   }
   @media (max-width: 768px) {
-    .content h2,
-    .content h3 {
-      font-size: 60px;
-      line-height: 70px;
-      margin-top: 4rem;
-    }
-    p {
-      font-size: 50px;
-      margin-bottom: 2rem;
-      text-align: justify;
-    }
+    
 
     li {
       font-size: 50px;
       line-height: 70px;
     }
-    .content tr {
+    .posts tr {
       line-height: 60px;
     }
   }

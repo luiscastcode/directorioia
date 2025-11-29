@@ -825,7 +825,31 @@ const Data: AppsItem[] = [
   },
   {
     id:134,nombre:'SoulGen',descrip:'Utiliza IA para generar imágenes de personas sin ropa a partir de fotografías.',categoria:'Adulto IA',pago:'Gratis',img:'soulgen',url:'https://pages.faceplay.info/sg/change-page',bgdestacado:'gratis'},
-  //{id:,nombre:'',descrip:'.',categoria:'Contenido',pago:'',img:'',url:'',bgdestacado:''},
+   {
+    id:135,nombre:'Drone DJI T25',descrip:'Drones especializados para la agricultura.',categoria:'Agricultura',pago:'De Pago',img:'dj',url:'https://ag.dji.com/t25',bgdestacado:'pago'
+  },
+  {
+    id:136,nombre:'Drone Deploy',descrip:'DroneDeploy es la única plataforma que combina y analiza datos de todas las fuentes de capturas desde variso drones a la vez.',categoria:'Agricultura',pago:'De Pago',img:'droneploy',url:'https://www.dronedeploy.com/solutions/agriculture',bgdestacado:'pago'
+  },
+  {
+    id:137,nombre:'Agerpix',descrip:'Empresa que desarrolla soluciones de agricultura de precisión usando IA.',categoria:'Agricultura',pago:'De Pago',img:'agerpix',url:'https://agerpix.com/',bgdestacado:'pago'
+  },
+  {
+    id:138,nombre:'CROPX',descrip:'CropX agrega datos del suelo al cielo y los transforma en información útil, lo que ayuda a los agricultores a monitorear la salud de los campos y cultivos.',categoria:'Agricultura',pago:'De Pago',img:'cropx',url:'https://cropx.com/',bgdestacado:'pago'
+  },
+  {
+    id:139,nombre:'Harvest CROO Robotics',descrip:'Ofrecen un robot de cosecha que automatiza la gestión de cultivos, la cosecha y el empaquetado de cultivos especiales.',categoria:'Agricultura',pago:'De Pago',img:'croo',url:'https://www.harvestcroorobotics.com/',bgdestacado:'pago'
+  },
+  {
+    id:140,nombre:'EcoRobotix',descrip:'Su software impulsado por IA puede distinguir entre malezas y cultivos, centrándose solo en lo que se necesita para reducir el desperdicio y maximizar la eficiencia.',categoria:'Agricultura',pago:'De Pago',img:'ecor',url:'https://ecorobotix.com/',bgdestacado:'pago'
+  },
+   {
+    id:141,nombre:'Climate Field View',descrip:'La plataforma de software líder en agricultura digital que convierte los datos de campo en información.',categoria:'Agricultura',pago:'De Pago',img:'fieldview',url:'https://climate.com/en-ca.html',bgdestacado:'pago'
+  },
+  {
+    id:142,nombre:'John Deere Operations Center',descrip:'Plataforma App para Android y IOS, mira toda la actividad de tu campo en un solo lugar, tu smartphone.',categoria:'Agricultura',pago:'Gratis',img:'deer',url:'https://www.deere.com/latin-america/es/agricultura-de-precisi%C3%B3n/gerenciamiento-de-informaci%C3%B3n/operations-center/',bgdestacado:'gratis'
+  },
+    //{id:,nombre:'',descrip:'.',categoria:'Contenido',pago:'',img:'',url:'',bgdestacado:''},
 ];
 
 export default Data;

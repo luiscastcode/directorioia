@@ -4,67 +4,72 @@ const BotonesNav = () => {
   const ItemBoton = [
     {
       id: 1,
-      url: "herramientas/contenido",
+      url: "aplicaciones/para-redactar-contenido",
 
       nombre: "Contenido",
     },
     {
       id: 2,
-      url: "herramientas/marketingseo",
+      url: "aplicaciones/en-el-marketing-seo",
 
       nombre: "Marketing/SEO",
     },
     {
       id: 3,
-      url: "herramientas/audiovideo",
+      url: "aplicaciones/para-audio-video",
 
       nombre: "Audio/Video",
     },
     {
       id: 4,
-      url: "herramientas/productividad",
+      url: "aplicaciones/en-los-negocios",
 
       nombre: "Productividad",
     },
     {
       id: 5,
-      url: "herramientas/venezuela-ia",
+      url: "aplicaciones/venezuela-ia",
       nombre: "Para Venezuela",
     },
     {
       id: 6,
-      url: "herramientas/imagen",
+      url: "aplicaciones/para-crear-imagenes",
       nombre: "Imagenes IA",
     },
     {
       id: 7,
-      url: "herramientas/estilovida",
+      url: "aplicaciones/en-la-vida-cotidiana",
       nombre: "Estilo de Vida",
     },
     {
       id: 8,
-      url: "herramientas/robot-ia",
+      url: "aplicaciones/robot-ia",
       nombre: "Robots Mascota",
     },
     {
       id: 9,
-      url: "idea",
+      url: "blog",
       nombre: "Blog Ideas...",
     },
     {
       id: 10,
-      url: "herramientas/prompts",
+      url: "aplicaciones/prompts",
       nombre: "Prompts Interesantes",
     },
     {
       id: 11,
-      url: "herramientas/adulto-ia",
+      url: "aplicaciones/adulto-ia",
       nombre: "Adulto IA",
+    },
+     {
+      id: 12,
+      url: "aplicaciones/en-la-agricultura",
+      nombre: "En La Agricultura",
     },
   ];
 
   return (
-    <>
+    <div class="grid grid-cols-2 md:grid-cols-4 justify-center items-center gap-1 mb-1">
       {ItemBoton.map(({ id, url, nombre }) => (
         <div
           key={id}
@@ -78,7 +83,7 @@ const BotonesNav = () => {
           </a>
         </div>
       ))}
-    </>
+    </div>
   );
 };
 export default BotonesNav;

@@ -3,18 +3,20 @@ import Encabezado from "../components/Encabezado.astro";
 import Layout from "../layouts/Layout.astro";
 import Buscador from "../components/Buscador";
 import SeccionHome from "../components/SeccionHome.astro";
+import BotonesNav from "../components/BotonesNav.jsx";
 ---
 
 <Layout
-  metatitle="Mejores Aplicaciones de Inteligencia Artificial En La Actualidad"
-  metadescription="Aplicaciones de inteligencia artificial para medicina, aplicaciones de ia en la vida cotidiana, en marketing, en transporte, en agricultura y más..."
+  metatitle="Mejores Aplicaciones de Inteligencia Artificial Gratis y De Pago"
+  metadescription="Aplicaciones de inteligencia artificial gratis y de pago, aplicaciones de ia en la vida cotidiana, en marketing, en transporte, en agricultura y más..."
   slug=""
 >
-
   <Encabezado
-    tituloencabezado="Las Mejores Apps de Inteligencia Artificial"
+    tituloencabezado="Las Mejores Apps de Inteligencia Artificial Gratis Y De Pago"
     subtitulo="+100 Aplicaciones de inteligencia artificial para medicina, vida cotidiana, marketing, transporte, agricultura y más..."
   />
+
   <Buscador client:visible />
+  <BotonesNav client:visible />
   <SeccionHome />
 </Layout>

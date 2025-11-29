@@ -1,0 +1,52 @@
+---
+ 
+import Layout from "../../layouts/Layout.astro";
+import Section from "../../components/Section.astro";
+import Card from "../../components/Card.astro";
+import Heading from "../../components/Encabezado.astro";
+import { sortPostsByDate } from "../../utils/fecha.formato";
+import DonarPaypal from "../../components/DonarPaypal.astro";
+import Facebook from "../../components/Facebook.astro";
+import Paginacion from "../../components/Paginacion.astro";
+ 
+
+export async function getStaticPaths({paginate}) {
+
+  const allPosts = await Astro.glob("./*.md");
+  allPosts.sort(sortPostsByDate);
+
+  
+  return paginate(allPosts,{
+    pageSize:12,
+  })
+} 
+  
+ const {page} = Astro.props;
+
+---
+
+<Layout
+  metatitle="Blog de IA | Ideas y Noticias Con IA"
+  metadescription="Mira las ideas que damos, lo que puedes hacer con inteligencia artificial, noticias y más..."
+  slug="blog/"
+>
+  <Heading
+    tituloencabezado="Blog Ideas Noticias Con IA"
+  />
+  <Section>
+    <div class="grid grid-flow-row md:grid-cols-3 gap-1">
+      {
+       page.data.map((post: any) => (
+          <div class="flex mb-4">
+            <Card post={post} />
+          </div>
+        ))
+      }
+    </div>
+    <Paginacion prevUrl={page.url.prev} nextUrl={page.url.next}/>
+  </Section>
+  <div class="flex flex-col md:flex-row justify-between items-center gap-1">
+    <DonarPaypal />
+    <Facebook />
+  </div>
+</Layout>

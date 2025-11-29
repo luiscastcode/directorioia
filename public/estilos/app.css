@@ -1,6 +1,4 @@
- 
-
-body {  
+body {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
 }
@@ -10,16 +8,15 @@ h2,
 h3,
 h4 {
   font-weight: 800 !important;
-  font-family: "Poppins", sans-serif;   
+  font-family: "Poppins", sans-serif;
 }
 
 h1,
-h2, 
+h2,
 h3,
-h4 { 
-  color:#001010;
+h4 {
+  color: #001010;
 }
-
 
 .menudrop {
   filter: drop-shadow(1px 1px 1px #001010);
@@ -28,13 +25,12 @@ h4 {
 p {
   padding-bottom: 1rem !important;
   line-height: 30px !important;
-   
 }
 ul li,
 ol li {
   margin: 0 !important;
-  padding: 10px !important;
-} 
+  padding: 5px !important;
+}
 .toc li {
   padding: 0px !important;
 }
@@ -48,7 +44,17 @@ ol li {
 p.descrip-texto {
   line-height: 1.25 !important;
 }
-
+.posts h2,
+.posts h3,
+.post h4 {
+  margin-top: 20px;
+}
+.posts h2,
+.posts h3,
+.post h4 {
+  font-size: 25px !important;
+  margin: 5px 0;
+}
 section {
   padding: 18px;
 }
@@ -73,6 +79,12 @@ th {
 }
 
 @media (max-width: 768px) {
+  .posts h2,
+  .posts h3 {
+    font-size: 60px !important;
+    line-height: 70px !important;
+    margin-top: 4rem !important;
+  }
   th,
   td {
     font-size: 2.5rem !important;
@@ -85,7 +97,10 @@ th {
   ul li,
   ol li {
     line-height: 72px !important;
-    font-size: 53px !important;     
-    margin-bottom: 20px !important;
+    font-size: 53px !important;
+    margin-bottom: 1px !important;
   }
+  .toc li {
+  font-size: 28px !important;
+}
 }

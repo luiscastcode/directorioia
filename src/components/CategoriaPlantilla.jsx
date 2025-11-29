@@ -26,7 +26,7 @@ const Plantilla = ({ categ, categ2 }) => {
           .map((result) => (
             <div
               key={result.id}
-              className="mb-4 rounded overflow-hidden shadow-inner bg-blue-200"
+              className="mb-4 rounded overflow-hidden shadow-inner bg-slate-200"
             >
               <motion.div
                 whileHover={{ scale: 1.2 }}
@@ -51,7 +51,7 @@ const Plantilla = ({ categ, categ2 }) => {
                   </h2>
                 </div>
                 <div className="flex flex-row items-center mb-2">
-                  <span className="inline-block bg-gray-200 rounded-md px-6 py-2 md:px-3 md:py-1 text-3xl md:text-sm font-semibold text-gray-900 mr-2">
+                  <span className="inline-block bg-amber-200 rounded-md px-6 py-2 md:px-3 md:py-1 text-3xl md:text-sm font-semibold text-gray-900 mr-2">
                     {result.categoria}
                   </span>
                   <span
@@ -71,9 +71,9 @@ const Plantilla = ({ categ, categ2 }) => {
                   href={`${result.url}`}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex justify-center mx-auto text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 font-medium rounded-lg text-5xl md:text-xl px-8 py-10 md:py-2.5 text-center me-2 mb-2 w-full"
+                  className="flex justify-center mx-auto bg-gradient-to-r from-amber-500 via-yellow-300 to-amber-500 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 font-medium rounded-lg text-5xl md:text-xl px-8 py-10 md:py-2.5 text-center me-2 mb-2 w-full"
                 >
-                  Utilizar La IA
+                  Ver La IA
                 </a>
               </div>
             </div>

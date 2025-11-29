@@ -1,6 +1,6 @@
 ---
 import { formatDate } from "../utils/fecha.formato";
-import Section from "./Section.astro";
+import TablaDeContenido from "./TablaDeContenido.astro";
 import { slugify } from "../utils/utils";
 
 interface Props {
@@ -15,29 +15,30 @@ interface Props {
   };
 }
 
-const { title, pubDate, img, author, categoria } = Astro.props;
+const { title, pubDate, img, author, categoria} = Astro.props;
 
 const formattedDate = formatDate(pubDate);
 ---
 
-<Section>
-  <div class="flex flex-col items-center">
-    <h1 class="px-14 pb-4 pt-6 text-center text-8xl md:text-4xl font-bold">
+ 
+  <div class="flex flex-col items-center gap-1">
+    <h1 class="px-1 pb-4 pt-6 text-8xl md:text-4xl font-bold">
       {title}
     </h1>
-    <div class="flex-col md:flex-row text-3xl md:text-lg mb-2 justify-center items-center p-3 border border-b-orange-400 rounded-md">
+    <div class="flex flex-col w-full p-2 text-3xl md:text-lg mb-2">
       <span>
-        Autor: <span class="font-bold mr-6">{author}</span>
+        Autor: <span class="font-bold">{author}</span>
       </span>
-      <span>{formattedDate}</span>
-      <a href=`/categoria/${slugify(categoria)}/` class="bg-blue-800 text-slate-100 p-1 ml-6 rounded-md">{categoria}</a>
+      <span>{formattedDate}</span>      
+      <a href=`/categoria/${slugify(categoria)}/` class="p-1 bg-amber-200 border border-b-orange-400 rounded-md">{categoria}</a>
+   
     </div>
   </div>
   <div class="flex justify-center items-center mx-auto">
     {
       img.src ? (
-        <img src={img.src} alt={img.alt} class="w-full rounded-md" />
+        <img src={img.src} alt={img.alt} class="max-w-xl rounded-md" />
       ) : null
     }
   </div>
-</Section>
+ 

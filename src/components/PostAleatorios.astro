@@ -7,7 +7,7 @@ const { publicacionesAleatorias } = Astro.props;
 
 {
   publicacionesAleatorias.map((post: any) => (
-    <div class="mb-2 w-full  p-4 shadow-md rounded-md ">
+    <div class="mb-2 w-full p-4 shadow-md rounded-md ">
       {post.frontmatter.image.src ? <img src={post.frontmatter.image.src} alt={post.frontmatter.image.alt} class="w-full" /> : null}
       <h3 class="text-5xl md:text-lg mb-2">
         {" "}

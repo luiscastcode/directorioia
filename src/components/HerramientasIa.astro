@@ -2,8 +2,8 @@
 const dataProveed = [
   {
     id: 1,
-    nombre: "Maketing/SEO",
-    url: "marketingseo",
+    nombre: "en el Maketing/SEO",
+    url: "en-el-marketing-seo",
   },
   {
     id: 2,
@@ -13,22 +13,22 @@ const dataProveed = [
   {
     id: 3,
     nombre: "audio/video",
-    url: "audiovideo",
+    url: "para-audio-video",
   },
   {
     id: 4,
-    nombre: "imagen",
-    url: "imagen",
+    nombre: "para crear imagenes",
+    url: "para-crear-imagenes",
   },
   {
     id: 5,
-    nombre: "contenido",
-    url: "contenido",
+    nombre: "para redactar contenido",
+    url: "para-redactar-contenido",
   },
   {
     id: 6,
-    nombre: "estilo de vida",
-    url: "estilovida",
+    nombre: "en la de vida cotidiana",
+    url: "en-la-vida-cotidiana",
   },
   {
     id: 7,
@@ -38,12 +38,17 @@ const dataProveed = [
   {
     id: 8,
     nombre: "productividad",
-    url: "productividad",
+    url: "en-los-negocios",
   },
   {
     id: 9,
     nombre: "adulto ia",
     url: "adulto-ia",
+  },
+   {
+    id: 10,
+    nombre: "en la agricultura",
+    url: "en-la-agricultura",
   },
 ];
 ---
@@ -54,7 +59,7 @@ const dataProveed = [
   data-dropdown-trigger="hover"
   class="text-gray-900 hover:font-bold focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center"
   type="button"
-  >Herramientas Ia <svg
+  >Aplicaciones de IA <svg
     class="arrow w-2.5 h-2.5 ms-3"
     aria-hidden="true"
     xmlns="http://www.w3.org/2000/svg"
@@ -73,7 +78,7 @@ const dataProveed = [
 <!-- Dropdown menu -->
 <div
   id="herramientasHover"
-  class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700"
+  class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-64 dark:bg-gray-700"
 >
   <ul
     class="py-2 text-sm rounded-md text-gray-900 bg-[#e2e8f0]"
@@ -83,7 +88,7 @@ const dataProveed = [
       dataProveed.map((item) => (
         <li>
           <a
-            href={`/herramientas/${item.url}/`}
+            href={`/aplicaciones/${item.url}/`}
             class="block px-4 py-2 hover:font-bold capitalize"
           >
             {item.nombre}
