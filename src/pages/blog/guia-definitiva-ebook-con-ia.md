@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/LayoutBlog.astro
-metatitle: "Aprende Como Crear un Ebook con Jasper IA y Venderlo"
+metatitle: "Aprende Como Crear un Ebook con Jasper IA y Venderlo en 2026"
 title: "ᐅ Guía Definitiva: Cómo Crear un Ebook con IA y Gana Dinero"
 pubDate: 8-26-2024
 metadescription: "Usando Jasper, una herramienta de IA para crear ebooks y venderlo por internet como una forma de ganar dinero extra en tus tiempo libre."
@@ -24,13 +24,13 @@ Antes de comenzar, es crucial tener claro el tema que deseas tratar en tu ebook.
 <div
       class="w-full justify-center items-center mx-auto p-8 bg-white rounded-xl mb-4"
     >
-      <h3 class="text-center text-6xl md:text-4xl mb-2">Te puede interesar</h3>
+      <h3 class="text-center text-6xl md:text-4xl mb-2">Redactar Ebook con IA</h3>
       <div class="flex mx-auto my-6">
         <a
-          href="/herramientas/contenido/"
+          href="/aplicaciones/para-redactar-contenido/"
           class="flex justify-center mx-auto text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 font-bold rounded-lg text-6xl md:text-2xl px-8 py-4 text-center me-2 mb-2 w-full"
         >
-        Herramientas de Ia para Crear Contenidos
+        Herramientas de Ia para redactar textos
         </a>
       </div>
     </div>
@@ -92,13 +92,13 @@ Usa redes sociales y dirigela a una landing page con WordPress y con un buen mar
 <div
       class="w-full justify-center items-center mx-auto p-8 bg-white rounded-xl mb-4"
     >
-      <h3 class="text-center text-6xl md:text-4xl mb-2">Te puede interesar</h3>
+      <h3 class="text-center text-6xl md:text-4xl mb-2">Vende Productos Digitales con IA</h3>
       <div class="flex mx-auto my-6">
         <a
-          href="/herramientas/marketingseo/"
+          href="/blog/crear-vender-productos-fisicos-digitales-con-ia/"
           class="flex justify-center mx-auto text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 font-bold rounded-lg text-6xl md:text-2xl px-8 py-4 text-center me-2 mb-2 w-full"
         >
-        Herramientas de inteligencia artificial para marketing y SEO
+        Herramientas de IA para vender tu producto
         </a>
       </div>
     </div>

@@ -34,12 +34,12 @@ En cuanto a la inteligencia artificial, la Generación X es la que más tarde co
     <h4 class="mb-2 text-6xl md:text-4xl font-bold tracking-tight">
       <span
         class="underline underline-offset-3 decoration-8 decoration-indigo-500"
-        >Te puede interesar</span
+        >Monetizar Aplicaciones con IA</span
       >
     </h4>
-  <a class="font-bold bg-[#F7BE38] hover:bg-[#F7BE38]/90 focus:ring-4 focus:outline-none focus:ring-[#F7BE38]/50 text-center rounded-lg text-6xl md:text-lg px-20 md:px-5 py-6 md:py-2.5 inline-flex justify-center items-center dark:focus:ring-[#F7BE38]/50 mb-2" href="/idea/estrategias-para-monetizar-aplicaciones-de-ia/" 
+  <a class="font-bold bg-[#F7BE38] hover:bg-[#F7BE38]/90 focus:ring-4 focus:outline-none focus:ring-[#F7BE38]/50 text-center rounded-lg text-6xl md:text-lg px-20 md:px-5 py-6 md:py-2.5 inline-flex justify-center items-center dark:focus:ring-[#F7BE38]/50 mb-2" href="/blog/estrategias-para-monetizar-aplicaciones-de-ia/" 
   >
-      Monetizar Aplicaciones con IA
+      Mira Como Hacerlo!
   </a>
   </div>
 </div>
@@ -63,7 +63,7 @@ Los profesionales de la Generación X también están utilizando la IA para mejo
     </h4>
   <a
       class="font-bold bg-[#F7BE38] hover:bg-[#F7BE38]/90 focus:ring-4 focus:outline-none focus:ring-[#F7BE38]/50 text-center rounded-lg text-6xl md:text-lg px-20 md:px-5 py-6 md:py-2.5 inline-flex justify-center items-center dark:focus:ring-[#F7BE38]/50 mb-2"
-      href="/idea/monetizar-con-chatbots-ia/"
+      href="/blog/monetizar-con-chatbots-ia/"
   >
       Monetizar con Chatbots
   </a>
@@ -129,7 +129,7 @@ Para ambos grupos, la clave será la educación continua y la disposición para 
         >Te puede interesar</span
       >
     </h4>
-  <a class="font-bold bg-[#F7BE38] hover:bg-[#F7BE38]/90 focus:ring-4 focus:outline-none focus:ring-[#F7BE38]/50 text-center rounded-lg text-6xl md:text-lg px-20 md:px-5 py-6 md:py-2.5 inline-flex justify-center items-center dark:focus:ring-[#F7BE38]/50 mb-2" href="/herramientas/imagen/" 
+  <a class="font-bold bg-[#F7BE38] hover:bg-[#F7BE38]/90 focus:ring-4 focus:outline-none focus:ring-[#F7BE38]/50 text-center rounded-lg text-6xl md:text-lg px-20 md:px-5 py-6 md:py-2.5 inline-flex justify-center items-center dark:focus:ring-[#F7BE38]/50 mb-2" href="/aplicaciones/para-crear-imagenes/" 
   >
       Hacer Imagenes con Inteligencia Artificial​
   </a>

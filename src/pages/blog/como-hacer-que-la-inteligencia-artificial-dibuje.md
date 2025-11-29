@@ -72,7 +72,7 @@ Por ejemplo:
         >Te puede interesar</span
       >
     </h4>
-  <a class="font-bold bg-[#F7BE38] hover:bg-[#F7BE38]/90 focus:ring-4 focus:outline-none focus:ring-[#F7BE38]/50 text-center rounded-lg text-6xl md:text-lg px-20 md:px-5 py-6 md:py-2.5 inline-flex justify-center items-center dark:focus:ring-[#F7BE38]/50 mb-2" href="/herramientas/prompts/" 
+  <a class="font-bold bg-[#F7BE38] hover:bg-[#F7BE38]/90 focus:ring-4 focus:outline-none focus:ring-[#F7BE38]/50 text-center rounded-lg text-6xl md:text-lg px-20 md:px-5 py-6 md:py-2.5 inline-flex justify-center items-center dark:focus:ring-[#F7BE38]/50 mb-2" href="/aplicaciones/prompts/" 
   >
       Prompts Interesantes
   </a>

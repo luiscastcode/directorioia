@@ -51,10 +51,10 @@ La IA puede ser una aliada increíble para la creación de e-books y cursos en l
       <h3 class="text-center text-6xl md:text-4xl mb-2">Te puede interesar</h3>
       <div class="flex mx-auto my-6">
         <a
-          href="/herramientas/contenido/"
+          href="/aplicaciones/para-redactar-contenido/"
           class="flex justify-center mx-auto text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 font-bold rounded-lg text-6xl md:text-2xl px-8 py-4 text-center me-2 mb-2 w-full"
         >
-          Herramientas con IA Para Escribir Contenidos
+          Herramientas con IA Para Redactar Texto
         </a>
       </div>
     </div>
@@ -86,7 +86,7 @@ El arte digital y la música generada por IA están revolucionando la industria 
       <h3 class="text-center text-6xl md:text-4xl mb-2">Te puede interesar</h3>
       <div class="flex mx-auto my-6">
         <a
-          href="/herramientas/audiovideo/"
+          href="/aplicaciones/para-audio-video/"
           class="flex justify-center mx-auto text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 font-bold rounded-lg text-6xl md:text-2xl px-8 py-4 text-center me-2 mb-2 w-full"
         >
           Herramientas para Audio y Video con IA
@@ -142,7 +142,7 @@ La IA también ha revolucionado la fabricación, permitiendo la producción de p
       <h3 class="text-center text-6xl md:text-4xl mb-2">Te puede interesar</h3>
       <div class="flex mx-auto my-6">
         <a
-          href="/herramientas/robot-ia/"
+          href="/aplicaciones/robot-ia/"
           class="flex justify-center mx-auto text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 font-bold rounded-lg text-6xl md:text-2xl px-8 py-4 text-center me-2 mb-2 w-full"
         >
           Robots Asistentes con IA
@@ -171,7 +171,7 @@ Vender tus productos a través de tu propia tienda online o en marketplaces popu
       <h3 class="text-center text-6xl md:text-4xl mb-2">Te puede interesar</h3>
       <div class="flex mx-auto my-6">
         <a
-          href="/herramientas/marketingseo/"
+          href="/aplicaciones/en-el-marketing-seo/"
           class="flex justify-center mx-auto text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 font-bold rounded-lg text-6xl md:text-2xl px-8 py-4 text-center me-2 mb-2 w-full"
         >
           Herramientas con IA para Marketing y SEO

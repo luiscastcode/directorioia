@@ -32,7 +32,7 @@ Por ejemplo, la IA HAL 9000, de 2001: Odisea del espacio (1968), se destaca como
         >Te puede interesar</span
       >
     </h4>
-  <a class="font-bold bg-[#F7BE38] hover:bg-[#F7BE38]/90 focus:ring-4 focus:outline-none focus:ring-[#F7BE38]/50 text-center rounded-lg text-6xl md:text-lg px-20 md:px-5 py-6 md:py-2.5 inline-flex justify-center items-center dark:focus:ring-[#F7BE38]/50 mb-2" href="/idea/10-herramientas-de-inteligencia-artificial-para-abogados-exitosos/" 
+  <a class="font-bold bg-[#F7BE38] hover:bg-[#F7BE38]/90 focus:ring-4 focus:outline-none focus:ring-[#F7BE38]/50 text-center rounded-lg text-6xl md:text-lg px-20 md:px-5 py-6 md:py-2.5 inline-flex justify-center items-center dark:focus:ring-[#F7BE38]/50 mb-2" href="/blog/10-herramientas-de-inteligencia-artificial-para-abogados-exitosos/" 
   >
       IA para Abogados Gratis
   </a>
@@ -54,7 +54,7 @@ Pero no todo es apocalíptico. Muchas películas también presentan a la IA como
     </h4>
   <a
       class="font-bold bg-[#F7BE38] hover:bg-[#F7BE38]/90 focus:ring-4 focus:outline-none focus:ring-[#F7BE38]/50 text-center rounded-lg text-6xl md:text-lg px-20 md:px-5 py-6 md:py-2.5 inline-flex justify-center items-center dark:focus:ring-[#F7BE38]/50 mb-2"
-      href="/idea/reflection-70b-ia/"
+      href="/blog/reflection-70b-ia/"
   >
       Reflection 7B la IA más inteligente que ChatGPT
   </a>
@@ -192,7 +192,7 @@ Este recorrido por las IAs más memorables del cine revela cómo estas tecnolog�
         >Te puede interesar</span
       >
     </h4>
-  <a class="font-bold bg-[#F7BE38] hover:bg-[#F7BE38]/90 focus:ring-4 focus:outline-none focus:ring-[#F7BE38]/50 text-center rounded-lg text-6xl md:text-lg px-20 md:px-5 py-6 md:py-2.5 inline-flex justify-center items-center dark:focus:ring-[#F7BE38]/50 mb-2" href="/herramientas/robot-ia/" 
+  <a class="font-bold bg-[#F7BE38] hover:bg-[#F7BE38]/90 focus:ring-4 focus:outline-none focus:ring-[#F7BE38]/50 text-center rounded-lg text-6xl md:text-lg px-20 md:px-5 py-6 md:py-2.5 inline-flex justify-center items-center dark:focus:ring-[#F7BE38]/50 mb-2" href="/aplicaciones/robot-ia/" 
   >
       Robots Mascotas con IA
   </a>

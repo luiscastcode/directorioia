@@ -93,7 +93,7 @@ Si un producto comienza a tener alta demanda, la inteligencia artificial puede a
     </h4>
   <a
       class="font-bold bg-[#F7BE38] hover:bg-[#F7BE38]/90 focus:ring-4 focus:outline-none focus:ring-[#F7BE38]/50 text-center rounded-lg text-6xl md:text-lg px-20 md:px-5 py-6 md:py-2.5 inline-flex justify-center items-center dark:focus:ring-[#F7BE38]/50 mb-2"
-      href="/idea/estrategia-precios-ia/"
+      href="/blog/estrategia-precios-ia/"
   >
       Cómo Hacer Estrategia de Precios con IA
   </a>
@@ -114,7 +114,7 @@ Herramientas que puedes usar:
     <h4 class="mb-2 text-6xl md:text-4xl font-bold tracking-tight">
   <span class="underline underline-offset-3 decoration-8 decoration-indigo-500">Te puede interesar</span>
     </h4>
-  <a class="font-bold bg-[#F7BE38] hover:bg-[#F7BE38]/90 focus:ring-4 focus:outline-none focus:ring-[#F7BE38]/50 text-center rounded-lg text-6xl md:text-lg px-20 md:px-5 py-6 md:py-2.5 inline-flex justify-center items-center dark:focus:ring-[#F7BE38]/50 mb-2" href="/idea/monetizar-con-chatbots-ia/" 
+  <a class="font-bold bg-[#F7BE38] hover:bg-[#F7BE38]/90 focus:ring-4 focus:outline-none focus:ring-[#F7BE38]/50 text-center rounded-lg text-6xl md:text-lg px-20 md:px-5 py-6 md:py-2.5 inline-flex justify-center items-center dark:focus:ring-[#F7BE38]/50 mb-2" href="/blog/monetizar-con-chatbots-ia/" 
   >
       Monetizar Con Chatbots
   </a>
@@ -133,9 +133,9 @@ Herramientas que puedes usar:
         >Te puede interesar</span
       >
     </h4>
-  <a class="font-bold bg-[#F7BE38] hover:bg-[#F7BE38]/90 focus:ring-4 focus:outline-none focus:ring-[#F7BE38]/50 text-center rounded-lg text-6xl md:text-lg px-20 md:px-5 py-6 md:py-2.5 inline-flex justify-center items-center dark:focus:ring-[#F7BE38]/50 mb-2" href="/herramientas/marketingseo/" 
+  <a class="font-bold bg-[#F7BE38] hover:bg-[#F7BE38]/90 focus:ring-4 focus:outline-none focus:ring-[#F7BE38]/50 text-center rounded-lg text-6xl md:text-lg px-20 md:px-5 py-6 md:py-2.5 inline-flex justify-center items-center dark:focus:ring-[#F7BE38]/50 mb-2" href="/aplicaciones/en-el-marketing-seo/" 
   >
-      Herramientas Para Marketing/SEO
+      Herramientas de IA Para Marketing/SEO
   </a>
   </div>
 </div>

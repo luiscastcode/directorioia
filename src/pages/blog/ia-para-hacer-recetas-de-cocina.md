@@ -1,13 +1,13 @@
 ---
 layout: ../../layouts/LayoutBlog.astro
-metatitle: "ᐅ ¡Innovación Gastronómica! 5 IA para Hacer Recetas de Cocina"
+metatitle: "5 Aplicaciones de IA Para Crear Recetas de Cocina"
 title: "ᐅ 5 IA para Hacer Recetas de Cocina"
 pubDate: 9-01-2024
-metadescription: "¿Alguna vez te has encontrado mirando los ingredientes y no saber que preparar? Descubre una nueva forma de cocinar rápido, fácil y siempre delicioso con IA."
+metadescription: "¿Alguna vez te has encontrado mirando los ingredientes y no sabes que preparar? Descubre una nueva forma de cocinar rápido, fácil y siempre delicioso con IA."
 author: "lcastcode"
 slug: "blog/ia-para-hacer-recetas-de-cocina/"
 categoria: Estilo de vida
-excerpt: ¿Alguna vez te has encontrado mirando los ingredientes y no saber que preparar?.
+excerpt: ¿Alguna vez te has encontrado mirando los ingredientes y no sabes que preparar?.
 image:
   src: ../../assets/pub/cocina.jpg
   alt: cocina ai
@@ -124,7 +124,7 @@ Estas IA para hacer recetas de cocina no solo optimizan tu tiempo, sino que tamb
       <h3 class="text-center text-6xl md:text-4xl mb-2">Te puede interesar</h3>
       <div class="flex mx-auto my-6">
         <a
-          href="/idea/estrategias-para-monetizar-aplicaciones-de-ia/"
+          href="/blog/estrategias-para-monetizar-aplicaciones-de-ia/"
           class="flex justify-center mx-auto text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 font-bold rounded-lg text-6xl md:text-2xl px-8 py-4 text-center me-2 mb-2 w-full"
         >
          Estrategias Para Monetizar con IA

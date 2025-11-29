@@ -95,13 +95,13 @@ Incorporar IA en la estrategia de pricing no solo permite a las empresas adaptar
 <div
       class="w-full justify-center items-center mx-auto p-8 bg-white rounded-xl mb-4"
     >
-      <h3 class="text-center text-6xl md:text-4xl mb-2">Te puede interesar</h3>
+      <h3 class="text-center text-6xl md:text-4xl mb-2">Agricultura con IA</h3>
       <div class="flex mx-auto my-6">
         <a
-          href="/herramientas/marketingseo/"
+          href="/aplicaciones/en-la-agricultura/"
           class="flex justify-center mx-auto text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 font-bold rounded-lg text-6xl md:text-2xl px-8 py-4 text-center me-2 mb-2 w-full"
         >
-        Herramientas de inteligencia artificial para marketing y SEO
+        Herramientas de inteligencia artificial para la agricultura
         </a>
       </div>
     </div>

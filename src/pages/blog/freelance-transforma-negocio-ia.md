@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/LayoutBlog.astro
-metatitle: "ᐅ ¡No Te Puedes lo Perder! Nuevas Oportunidades Laborales para Freelancers"
-title: "ᐅ La Automatización: Nuevas Oportunidades Laborales para Freelancers"
+metatitle: "Nuevas Oportunidades Laborales Con IA para Freelancers"
+title: "La Automatización con IA: Nuevas Oportunidades Laborales para Freelancers"
 pubDate: 8-27-2024
 metadescription: "Desde la automatización de tareas hasta la creación de nuevas oportunidades laborales, la IA está redefiniendo cómo entendemos y realizamos el trabajo."
 author: "lcastcode"
@@ -39,13 +39,13 @@ La automatización no solo es útil para grandes corporaciones; los freelancers 
 <div
       class="w-full justify-center items-center mx-auto p-8 bg-white rounded-xl mb-4"
     >
-      <h3 class="text-center text-6xl md:text-2xl mb-2">Te puede interesar</h3>
+      <h3 class="text-center text-6xl md:text-2xl mb-2">En los negocios</h3>
       <div class="flex mx-auto my-6">
         <a
-          href="/herramientas/productividad/"
+          href="/aplicaciones/en-los-negocios/"
           class="flex justify-center mx-auto text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 font-bold rounded-lg text-6xl md:text-2xl px-8 py-4 text-center me-2 mb-2 w-full"
         >
-         Herramientas de inteligencia artificial para productividad
+         Aplicaciones de inteligencia artificial para productividad
         </a>
       </div>
     </div>
@@ -148,13 +148,13 @@ La inteligencia artificial está aquí para quedarse, y su impacto en el mundo l
  <div
       class="w-full justify-center items-center mx-auto p-8 bg-white rounded-xl mb-4"
     >
-      <h3 class="text-center text-6xl md:text-2xl mb-2">Te puede interesar</h3>
+      <h3 class="text-center text-6xl md:text-2xl mb-2">Pets Robots</h3>
       <div class="flex mx-auto my-6">
         <a
-          href="/herramientas/audiovideo/"
+          href="/aplicaciones/robot-ia/"
           class="flex justify-center mx-auto text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 font-bold rounded-lg text-6xl md:text-2xl px-8 py-4 text-center me-2 mb-2 w-full"
         >
-         Herramientas para Audio y Video
+         Mascotas Robots con IA
         </a>
       </div>
     </div>

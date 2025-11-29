@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/LayoutBlog.astro
-metatitle: "ᐅ Abre Tu Restaurant Crea Comidas Hechas con IA y Gana Dinero"
+metatitle: "Restaurant Inteligente Crea Comidas Hechas con IA"
 title: "ᐅ Restaurant Con Comidas Hechas con Inteligencia Artificial"
 pubDate: 8-6-2024
 metadescription: "Prepara suculentas comidas con ayuda de la inteligencia artificial que puedes vender en tu restaurante futurista, casos reales."
@@ -60,7 +60,7 @@ Esto es solo un ejemplo cuando se tiene el dinero suficiente para invertir en la
       <h3 class="text-center text-6xl md:text-4xl mb-2">Te puede interesar</h3>
       <div class="flex mx-auto my-6">
         <a
-          href="/herramientas/estilovida/"
+          href="/aplicaciones/en-la-vida-cotidiana/"
           class="flex justify-center mx-auto text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 font-bold rounded-lg text-6xl md:text-2xl px-8 py-4 text-center me-2 mb-2 w-full"
         >
           Inteligencia Artificial Para Crear Recetas
@@ -102,7 +102,7 @@ Puedes usar **[Eat this Much](https://www.eatthismuch.com/ "Eat this Much")** pa
       <h3 class="text-center text-6xl md:text-4xl mb-2">Te puede interesar</h3>
       <div class="flex mx-auto my-6">
         <a
-          href="/herramientas/audiovideo/"
+          href="/aplicaciones/para-audio-video/"
           class="flex justify-center mx-auto text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 font-bold rounded-lg text-6xl md:text-2xl px-8 py-4 text-center me-2 mb-2 w-full"
         >
           Crear Videos Para Monetizar en YouTube
@@ -125,10 +125,10 @@ Las recetas hechas con inteligencia artificial están transformando la manera en
  <div
       class="w-full justify-center items-center mx-auto p-8 bg-white rounded-xl mb-4"
     >
-      <h3 class="text-center text-6xl md:text-4xl mb-2">Te puede interesar</h3>
+      <h3 class="text-center text-6xl md:text-4xl mb-2">Crea Tu Ebook de Recetas</h3>
       <div class="flex mx-auto my-6">
         <a
-          href="/idea/guia-definitiva-ebook-con-ia/"
+          href="/blog/guia-definitiva-ebook-con-ia/"
           class="flex justify-center mx-auto text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 font-bold rounded-lg text-6xl md:text-2xl px-8 py-4 text-center me-2 mb-2 w-full"
         >
          Guia Definitiva: Crear Ebook Con IA

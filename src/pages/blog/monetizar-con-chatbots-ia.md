@@ -104,7 +104,7 @@ Utilizar asistentes virtuales para optimizar tu propio negocio (como ecommerce) 
     </h4>
   <a
       class="font-bold bg-[#F7BE38] hover:bg-[#F7BE38]/90 focus:ring-4 focus:outline-none focus:ring-[#F7BE38]/50 text-center rounded-lg text-6xl md:text-lg px-20 md:px-5 py-6 md:py-2.5 inline-flex justify-center items-center dark:focus:ring-[#F7BE38]/50 mb-2"
-      href="/herramientas/productividad/"
+      href="/aplicaciones/en-los-negocios/"
   >
       Herramientas de Productividad con IA
   </a>
@@ -136,7 +136,7 @@ La elección entre un chatbot y un asistente virtual depende de tus necesidades:
     </h4>
   <a
       class="font-bold bg-[#F7BE38] hover:bg-[#F7BE38]/90 focus:ring-4 focus:outline-none focus:ring-[#F7BE38]/50 text-center rounded-lg text-6xl md:text-lg px-20 md:px-5 py-6 md:py-2.5 inline-flex justify-center items-center dark:focus:ring-[#F7BE38]/50 mb-2"
-      href="/herramientas/robot-ia/"
+      href="/aplicaciones/robot-ia/"
   >
       Robots Mascota y Asistentes Virtuales Para el Hogar
   </a>

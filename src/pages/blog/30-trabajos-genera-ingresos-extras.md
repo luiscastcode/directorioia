@@ -55,7 +55,7 @@ Si quieres aprender más sobre cómo generar ingresos con IA aplicandola a estos
       class="flex justify-center items-center mx-auto rounded-xl mb-4"
     >  <div>
   <a
-          href="/herramientas/marketingseo/"
+          href="/aplicaciones/en-el-marketing-seo/"
           class="flex justify-center mx-auto text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 font-bold rounded-lg text-4xl md:text-2xl px-8 py-4 text-center me-2 "
         >
          Herramientas para marketing
@@ -75,10 +75,10 @@ Si quieres aprender más sobre cómo generar ingresos con IA aplicandola a estos
       class="flex justify-center items-center mx-auto rounded-xl mb-4"
     >  <div>
   <a
-          href="/herramientas/contenido/"
+          href="/aplicaciones/para-redactar-contenido/"
           class="flex justify-center mx-auto text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 font-bold rounded-lg text-4xl md:text-2xl px-8 py-4 text-center me-2 "
         >
-         Herramientas para redacción
+         Herramientas de IA para redacción de texto
         </a>
        </div>
   </div>
@@ -93,7 +93,7 @@ Si quieres aprender más sobre cómo generar ingresos con IA aplicandola a estos
       class="flex justify-center items-center mx-auto rounded-xl mb-4"
     >  <div>
   <a
-          href="/herramientas/audiovideo/"
+          href="/aplicaciones/para-audio-video/"
           class="flex justify-center mx-auto text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 font-bold rounded-lg text-4xl md:text-2xl px-8 py-4 text-center me-2 "
         >
          Herramientas para video
@@ -107,10 +107,10 @@ Si quieres aprender más sobre cómo generar ingresos con IA aplicandola a estos
     >  
     <div>
   <a
-          href="/herramientas/imagen/"
+          href="/aplicaciones/para-crear-imagenes/"
           class="flex justify-center mx-auto text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 font-bold rounded-lg text-4xl md:text-2xl px-8 py-4 text-center me-2 "
         >
-         Herramientas para generar imágenes
+         Herramientas de IA para generar imágenes
         </a>
        </div>
   </div>
@@ -133,7 +133,7 @@ Si quieres aprender más sobre cómo generar ingresos con IA aplicandola a estos
     >  
     <div>
   <a
-          href="/herramientas/estilovida/"
+          href="/aplicaciones/en-la-vida-cotidiana/"
           class="flex justify-center mx-auto text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 font-bold rounded-lg text-4xl md:text-2xl px-8 py-4 text-center me-2 "
         >
          Herramientas para crear rutina de entrenamiento
@@ -156,7 +156,7 @@ Si quieres aprender más sobre cómo generar ingresos con IA aplicandola a estos
     >  
     <div>
   <a
-          href="/idea/guia-definitiva-ebook-con-ia/"
+          href="/blog/guia-definitiva-ebook-con-ia/"
           class="flex justify-center items-center mx-auto text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 font-bold rounded-lg text-4xl md:text-2xl px-8 py-4 text-center me-2 "
         >
          Guia: Cómo Crear un Ebook con Inteligencia Artificial para Ganar Dinero
